@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>School and College 2010 (Key Stage 5) - Metadata</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/schools/performance/archive/cssv1/style.css" type="text/css" media="screen, projection" />
+<!--[if IE 8]>
+        <link type="text/css" rel="stylesheet" href="/schools/performance/archive/cssv1/ie8.css" media="screen" />
+<![endif]-->
+<!--[if IE 7]>
+        <link type="text/css" rel="stylesheet" href="/schools/performance/archive/cssv1/ie7.css" media="screen" />
+<![endif]-->
+<!--[if lte IE 6]>
+        <link type="text/css" rel="stylesheet" href="/schools/performance/archive/cssv1/ie6.css" media="screen" />
+<![endif]-->
+<link rel="stylesheet" href="/schools/performance/archive/cssv1/styleimp.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/schools/performance/archive/cssv1/print.css" type="text/css" media="print" />
+
+<script language="JavaScript" type="text/javascript" src="/schools/performance/archive/jsv1/gide.js"></script>
+    <!-- start dfe2014 assets -->
+    <link href="http://media2.education.gov.uk/dfe2014/css/legacy.css" rel="stylesheet" media="screen">
+    <link href="http://media2.education.gov.uk/dfe2014/css/headerfooter.css" rel="stylesheet" media="screen">
+    <!--[if lte IE 9]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie9.css" media="screen" /><![endif]-->
+    <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie8.css" media="screen" /><![endif]-->
+    <!--[if lte IE 7]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie7.css" media="screen" /><![endif]-->
+    <!--[if lte IE 6]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie6.css" media="screen" /><![endif]-->
+    <script src="http://media2.education.gov.uk/dfe2014/js/html5shiv.js" type="text/javascript"></script>
+    <script src="http://media2.education.gov.uk/dfe2014/js/placeholders.min.js" type="text/javascript"></script>
+    <!-- end dfe2014 assets -->
+</head>
+<body class="onecolumn">
+<div id="container">
+<a id="top"></a>
+<a class="skiplink" href="#startcontent">Skip to main content</a>
+<div class="header">
+
+<!-- start dfe2014 header-->
+<header class="dfe2014 dfe2014-header clearfix" role="banner">
+    <div class="row dfe2014-header-logo">
+        	<div class="columns-three">
+            	<a href="https://www.gov.uk/government/organisations/department-for-education" target="_blank" class="dfe2014-header-logo-org"><span>Department for Education</span></a>
+            </div>
+        </div>
+    <div class="row dfe2014-header-title">
+        <div class="columns-two">
+            <h1><a href="/schools/performance/index.html">School performance tables</a></h1>
+        </div>
+    </div>
+</header>
+<!-- end dfe2014 header-->
+
+        <div class="header_row2">
+                <div class="sitetitle">
+                        <h2>Performance tables 2010</h2>
+                        <p class="link_othersites"><a href="/schools/performance/archive/index.shtml" title="View Perfomance tables from previous years">Previous years</a></p>
+                </div>
+                <form action="/cgi-bin/schools/performance/archive/url_10.pl" name="f5" method="get">
+                        <label for="selecttable">Choose a set of tables</label><br />
+                        <select id="selecttable" name="Phase">
+                           <option value="p">Primary School (Key Stage 2)</option>
+                           <option value="1">Secondary School (GCSE and equivalent)</option>
+                           <option value="2" selected="selected">School and College (Key Stage 5)</option>
+                        </select>
+                        <input type="hidden" value="10" name="Year" />
+                        <input type="submit" value="Go" />
+                </form>
+
+                <ul class="mainnav">
+                        <li class="on"><a href="/schools/performance/archive/16to18_10.shtml"><span>The tables</span></a></li>
+                        <li><a href="/schools/performance/archive/16to18_10/d1.shtml"><span>User guide and resources</span></a></li>
+                        <li><a href="/schools/performance/archive/16to18_10/glossary.shtml"><span>Glossary and abbreviations</span></a></li>
+                </ul>
+  </div>
+</div>
+<div class="breadcrumb">
+	<ul>
+        <li><a href="/schools/performance/archive/16to18_10.shtml">School and College (Key Stage 5)</a></li>
+	</ul>
+
+</div>
+<div class="contentheader">
+<a id="startcontent"></a>
+        <h1>Data description page</h1>
+</div>
+<div class="contentcolumn">
+       <div class="contentbody">
+<p>This description file contains variables names and descriptions for use with the downloadable 2010 School and College (Key Stage 5) Performance Tables. There are 5 different record types identifiable by the first field RecType. Not all variables are populated for all record types. For instance, institution details are not populated for record types 4, 5 and 7 which are Local and National averages. This datafile was created on mer. mars 26 19:25:37 GMT 2014
+.</p>
+<table border=>
+<tr>
+<td style="text-align:center; background-color:#eeeeee;">Field number</td>
+<td style="text-align:center; background-color:#eeeeee;">Name</td>
+<td style="text-align:center; background-color:#eeeeee;">Description</td>
+</tr>
+<tr>
+<td>1</td>
+<td>RecType</td>
+<td>Record type (1=Institution level data (except sixth form centres and consortia); 3=Institution level data (sixth form centres and consortia only); 4=Local Authority; 5=National (all schools); 7=National (maintained schools))</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AlphaInd</td>
+<td>Alphabetical sorting index</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Region</td>
+<td>Region code (see <a href="/schools/performance/archive/16to18_10/codes_ks5.xls">List of Abbreviations</a>)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>LASort</td>
+<td>Local Authority sort code within region</td>
+</tr>
+<tr>
+<td>5</td>
+<td>LACode</td>
+<td>Local Authority code (see <a href="/schools/performance/archive/16to18_10/codes_ks5.xls">List of Abbreviations</a>) </td>
+</tr>
+<tr>
+<td>6</td>
+<td>EstabCode</td>
+<td>Establishment number</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SchoolName</td>
+<td>Institution name</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Address1</td>
+<td>Institution address (1)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Address2</td>
+<td>Institution address (2)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Address3</td>
+<td>Institution address (3)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Town</td>
+<td>Institution TOWN</td>
+</tr>
+<tr>
+<td>12</td>
+<td>PostCode</td>
+<td>Institution postcode</td>
+</tr>
+<tr>
+<td>13</td>
+<td>TelNum</td>
+<td>Institution telephone number </td>
+</tr>
+<tr>
+<td>14</td>
+<td>FlagCont</td>
+<td>Contingency flag - Institution results 'significantly affected'. This field is zero for all schools this year.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>SchoolType</td>
+<td>School type/FE college type (see <a href="/schools/performance/archive/16to18_10/glossary.shtml#z01">List of school/college types </a>)</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Specialisms</td>
+<td>Type of specialist school (see <a href="/schools/performance/archive/16to18_10/glossary.shtml#t01">List of specialisms</a>)</td>
+</tr>
+<tr>
+<td>17</td>
+<td>AdmPolicy</td>
+<td>Institution admissions policy (COMP=Comprehensive; MOD=Modern; NA=Not applicable; SEL=Selective)</td>
+</tr>
+<tr>
+<td>18</td>
+<td>SixthFormGender</td>
+<td>Gender of sixth form (BOYS, GIRLS, MIXED)</td>
+</tr>
+<tr>
+<td>19</td>
+<td>FeederSchool</td>
+<td>Indicates whether school is a feeder school for sixth form centre/consortia (symbol used is =)</td>
+</tr>
+<tr>
+<td>20</td>
+<td>AgeRange</td>
+<td>Institution age range</td>
+</tr>
+<tr>
+<td>21</td>
+<td>FlagClosed</td>
+<td>Closed institution flag (0=open; 1=closed)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>FlagKS2</td>
+<td>Indicates whether institution is published in the Primary School (Key Stage 2) Performance Tables</td>
+</tr>
+<tr>
+<td>23</td>
+<td>FlagKS4</td>
+<td>Indicates whether institution is published in the Secondary School (Key Stage 4) Performance Tables</td>
+</tr>
+<tr>
+<td>24</td>
+<td>FlagConf</td>
+<td>Flag ('R') indicates no confirmation that school has checked its results</td>
+</tr>
+<tr>
+<td>25</td>
+<td>ShrunkVA</td>
+<td>Shrunken KS4 to KS5 Value Added measure</td>
+</tr>
+<tr>
+<td>26</td>
+<td>CVALConf</td>
+<td>Lower limit of 95% confidence interval for KS4-KS5 VA</td>
+</tr>
+<tr>
+<td>27</td>
+<td>CVAUConf</td>
+<td>Upper limit of 95% confidence interval for KS4-KS5 VA</td>
+</tr>
+<tr>
+<td>28</td>
+<td>VACov</td>
+<td>Value Added coverage indicator (percentage of students included in the Value Added measure)</td>
+</tr>
+<tr>
+<td>29</td>
+<td>KS5TotPup</td>
+<td>Number of students aged 16-18</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Trigger</td>
+<td>Number of students at the end of A/AS or equivalent study</td>
+</tr>
+<tr>
+<td>31</td>
+<td>AvePointStudent</td>
+<td>Average point score per student</td>
+</tr>
+<tr>
+<td>32</td>
+<td>AvePointEntry</td>
+<td>Average point score per examination entry</td>
+</tr>
+<tr>
+<td>33</td>
+<td>AvePointStudent07</td>
+<td>Average point score per student - 2007</td>
+</tr>
+<tr>
+<td>34</td>
+<td>AvePointStudent08</td>
+<td>Average point score per student - 2008</td>
+</tr>
+<tr>
+<td>35</td>
+<td>AvePointStudent09</td>
+<td>Average point score per student - 2009</td>
+</tr>
+<tr>
+<td>36</td>
+<td>AvePointEntry07</td>
+<td>Average point score per entry - 2007</td>
+</tr>
+<tr>
+<td>37</td>
+<td>AvePointEntry08</td>
+<td>Average point score per entry - 2008</td>
+</tr>
+<tr>
+<td>38</td>
+<td>AvePointEntry09</td>
+<td>Average point score per entry - 2009</td>
+</tr>
+</table>	
+</div>
+</div>
+<!-- start dfe2014 footer-->
+<footer class="dfe2014 row dfe2014-footer" role="contentinfo">
+    <div class="columns-three">
+        <ul class="dfe2014-list-horizontal">
+            <li><a href="http://www.education.gov.uk/help/legalinformation/a005237/use-of-crown-copyright-material">&copy; Crown copyright</a></li>
+            <li><a href="http://www.education.gov.uk/help/legalinformation">Legal information</a></li>
+            <li><a href="http://www.education.gov.uk/help/Accessibility">Accessibility</a></li>
+            <li><a href="http://www.education.gov.uk/help/legalinformation/a0077793/cookies">Cookies</a></li>
+            <li><a href="https://www.education.gov.uk/help/contactus">Contact DfE</a></li>
+            <li><a href="https://www.education.gov.uk/help/contactus/dfe">Freedom of information</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- end dfe2014 footer-->   
+
+    <!--BEGIN_EXCLUDE--><script type="text/javascript" src="http://media.education.gov.uk/consumption/js/core/ProphetInsert.js"></script><!--END_EXCLUDE--><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-10311450-17");pageTracker._trackPageview();} catch(err) {}</script>
+</div>
+</body>
+</html>

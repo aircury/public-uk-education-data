@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Primary School 2010 (Metadata)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/schools/performance/archive/cssv1/style.css" type="text/css" media="screen, projection" />
+<!--[if IE 8]>
+        <link type="text/css" rel="stylesheet" href="/schools/performance/archive/cssv1/ie8.css" media="screen" />
+<![endif]-->
+<!--[if IE 7]>
+        <link type="text/css" rel="stylesheet" href="/schools/performance/archive/cssv1/ie7.css" media="screen" />
+<![endif]-->
+<!--[if lte IE 6]>
+        <link type="text/css" rel="stylesheet" href="/schools/performance/archive/cssv1/ie6.css" media="screen" />
+<![endif]-->
+<link rel="stylesheet" href="/schools/performance/archive/cssv1/styleimp.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/schools/performance/archive/cssv1/print.css" type="text/css" media="print" />
+
+<script language="JavaScript" type="text/javascript" src="/schools/performance/archive/jsv1/gide.js"></script>
+    <!-- start dfe2014 assets -->
+    <link href="http://media2.education.gov.uk/dfe2014/css/legacy.css" rel="stylesheet" media="screen">
+    <link href="http://media2.education.gov.uk/dfe2014/css/headerfooter.css" rel="stylesheet" media="screen">
+    <!--[if lte IE 9]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie9.css" media="screen" /><![endif]-->
+    <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie8.css" media="screen" /><![endif]-->
+    <!--[if lte IE 7]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie7.css" media="screen" /><![endif]-->
+    <!--[if lte IE 6]><link type="text/css" rel="stylesheet" href="http://media2.education.gov.uk/dfe2014/css/ie6.css" media="screen" /><![endif]-->
+    <script src="http://media2.education.gov.uk/dfe2014/js/html5shiv.js" type="text/javascript"></script>
+    <script src="http://media2.education.gov.uk/dfe2014/js/placeholders.min.js" type="text/javascript"></script>
+    <!-- end dfe2014 assets -->
+</head>
+<body class="onecolumn">
+<div id="container">
+<a id="top"></a>
+<a class="skiplink" href="#startcontent">Skip to main content</a>
+<div class="header">
+
+        <!-- start dfe2014 header-->
+        <header class="dfe2014 dfe2014-header clearfix" role="banner">
+            <div class="row dfe2014-header-logo">
+                	<div class="columns-three">
+                    	<a href="https://www.gov.uk/government/organisations/department-for-education" target="_blank" class="dfe2014-header-logo-org"><span>Department for Education</span></a>
+                    </div>
+                </div>
+            <div class="row dfe2014-header-title">
+                <div class="columns-two">
+                    <h1><a href="/schools/performance/index.html">School performance tables</a></h1>
+                </div>
+            </div>
+        </header>
+        <!-- end dfe2014 header-->
+<!-- end dfe2014 header-->
+    
+        <div class="header_row2">
+                <div class="sitetitle">
+                        <h2>Performance tables 2010</h2>
+                        <p class="link_othersites"><a href="/schools/performance/archive/index.shtml" title="View Perfomance tables from previous years">Previous years</a></p>
+                </div>
+                <form action="/cgi-bin/schools/performance/archive/url_10.pl" name="f5" method="get">
+                        <label for="selecttable">Choose a set of tables</label><br />
+                        <select id="selecttable" name="Phase">
+                           <option value="p" selected="selected">Primary School (Key Stage 2)</option>
+                           <option value="1">Secondary School (GCSE and equivalent)</option>
+                           <option value="2">School and College (Key Stage 5)</option>
+
+                        </select>
+                        <input type="hidden" value="10" name="Year" />
+                        <input type="submit" value="Go" />
+                </form>
+
+                <ul class="mainnav">
+                        <li class="on"><a href="/schools/performance/archive/primary_10.shtml"><span>The tables</span></a></li>
+                        <li><a href="/schools/performance/archive/primary_10/p1.shtml"><span>User guide and resources</span></a></li>
+                        <li><a href="/schools/performance/archive/primary_10/glossary.shtml"><span>Glossary and abbreviations</span></a></li>
+                </ul>
+  </div>
+</div>
+<div class="breadcrumb">
+	<ul>
+        <li><a href="/schools/performance/archive/primary_10.shtml">Primary schools (KS2)</a></li>
+	</ul>
+
+</div>
+<div class="contentheader">
+<a id="startcontent"></a>
+        <h1>Data description page</h1>
+</div>
+<div class="contentcolumn">
+       <div class="contentbody">
+<p>This description file contains variable names and descriptions for use with the downloadable 2010 Primary School Performance Tables. There are 5 different record types identifiable by the first field RecType. Not all variables are populated for all record types. For instance, school details are not populated for record types 3,4 and 5 which are Local and National averages. This page was created on mer. mars 26 19:25:21 GMT 2014
+.</p>
+<table border="none">
+<tr>
+<td style="text-align:center; background-color:#eeeeee;">Field number</td>
+<td style="text-align:center; background-color:#eeeeee;">Name</td>
+<td style="text-align:center; background-color:#eeeeee;">Description</td>
+</tr>
+<tr>
+<td>1</td>
+<td>RecType</td>
+<td>Record type is 1 or 2 for school records</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AlphaInd</td>
+<td>Alphabetical order indicator</td>
+</tr>
+<tr>
+<td>3</td>
+<td>LaCode</td>
+<td>Local Authority Code (see <a href="/schools/performance/archive/primary_10/codes_ks2.xls">List of Abbreviations</a>)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>EstabCode</td>
+<td>Establishment number</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SchoolName</td>
+<td>School name</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Address1</td>
+<td>School address (1)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Address2</td>
+<td>School address (2)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Address3</td>
+<td>School address (3)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Town</td>
+<td>School TOWN</td>
+</tr>
+<tr>
+<td>10</td>
+<td>PostCode</td>
+<td>School postcode</td>
+</tr>
+<tr>
+<td>11</td>
+<td>TelNum</td>
+<td>School telephone number </td>
+</tr>
+<tr>
+<td>12</td>
+<td>FlagCont</td>
+<td>Flag indicates whether a school boycotted some or all of the Key Stage 2 Tests in 2010</td>
+</tr>
+<tr>
+<td>13</td>
+<td>SchoolType</td>
+<td>School type.School type: AC - Academy; CY - Community School; CYS -
+Community Special School; VC - Voluntary Controlled School; VA - Voluntary
+Aided School; FD - Foundation School; FDS - Foundation Special School </td>
+</tr>
+<tr>
+<td>14</td>
+<td>AgeRange</td>
+<td>Age range</td>
+</tr>
+<tr>
+<td>15</td>
+<td>FlagConf</td>
+<td>Flag indicates that no confirmation from the school that the core performance information was checked</td>
+</tr>
+<tr>
+<td>16</td>
+<td>TotPup</td>
+<td>Total number of pupils (including part-time pupils)</td>
+</tr>
+<tr>
+<td>17</td>
+<td>TotSENssap</td>
+<td>Pupils with statements of SEN or supported at School Action Plus: number</td>
+</tr>
+<tr>
+<td>18</td>
+<td>PSENssap</td>
+<td>Pupils with statements of SEN or supported at School Action Plus: percentage</td>
+</tr>
+<tr>
+<td>19</td>
+<td>TotSENsa</td>
+<td>Pupils with SEN, supported at School Action: number</td>
+</tr>
+<tr>
+<td>20</td>
+<td>PSENsa</td>
+<td>Pupils with SEN, supported at School Action: percentage</td>
+</tr>
+<tr>
+<td>21</td>
+<td>TotPup11</td>
+<td>Number of pupils aged 11 (i.e. aged 10 on previous August 31st)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>TotElig</td>
+<td>Published eligible pupil number</td>
+</tr>
+<tr>
+<td>23</td>
+<td>TotEligSENssap</td>
+<td>Eligible pupils with SEN with a statement or supported at School Action Plus: number</td>
+</tr>
+<tr>
+<td>24</td>
+<td>PEligSENssap</td>
+<td>Eligible pupils with SEN with a statement or supported at School Action Plus: percentage</td>
+</tr>
+<tr>
+<td>25</td>
+<td>TotEligSENsa</td>
+<td>Eligible pupils with SEN supported at School Action: number</td>
+</tr>
+<tr>
+<td>26</td>
+<td>PEligSENsa</td>
+<td>Eligible pupils with SEN supported at School Action: percentage</td>
+</tr>
+<tr>
+<td>27</td>
+<td>PEngTestL4p</td>
+<td>Percentage of pupils achieving Level 4 or above in English </td>
+</tr>
+<tr>
+<td>28</td>
+<td>PEngTestL5</td>
+<td>Percentage of pupils achieving Level 5 in English</td>
+</tr>
+<tr>
+<td>29</td>
+<td>PEngTestNA</td>
+<td>Percentage of pupils absent from or not able to access the tests in English</td>
+</tr>
+<tr>
+<td>30</td>
+<td>PMatTestL4p</td>
+<td>Percentage of pupils achieving Level 4 or above in mathematics </td>
+</tr>
+<tr>
+<td>31</td>
+<td>PMatTestL5</td>
+<td>Percentage of pupils achieving Level 5 in mathematics</td>
+</tr>
+<tr>
+<td>32</td>
+<td>PMatTestNA</td>
+<td>Percentage of pupils absent from or not able to access the tests in mathematics</td>
+</tr>
+<tr>
+<td>33</td>
+<td>PEngmatTestL4p</td>
+<td>Percentage achieving level 4 or above in both English and maths</td>
+</tr>
+<tr>
+<td>34</td>
+<td>ApsEngmatTest</td>
+<td>Average point score for English and maths</td>
+</tr>
+<tr>
+<td>35</td>
+<td>ApsEngmatTest07</td>
+<td>Average point score for English and maths 2007</td>
+</tr>
+<tr>
+<td>36</td>
+<td>ApsEngmatTest08</td>
+<td>Average point score for English and maths 2008</td>
+</tr>
+<tr>
+<td>37</td>
+<td>ApsEngmatTest09</td>
+<td>Average point score for English and maths 2009</td>
+</tr>
+<tr>
+<td>38</td>
+<td>ApsEngmatTest10</td>
+<td>Average point score for English and maths 2010</td>
+</tr>
+<tr>
+<td>39</td>
+<td>PEngmatTestL4p08</td>
+<td>Percentage achieving level 4 or above in both English and maths 2008 </td>
+</tr>
+<tr>
+<td>40</td>
+<td>PEngmatTestL4p09</td>
+<td>Percentage achieving level 4 or above in both English and maths 2009</td>
+</tr>
+<tr>
+<td>41</td>
+<td>PEngmatTestL4p10</td>
+<td>Percentage achieving level 4 or above in both English and maths 2010</td>
+</tr>
+<tr>
+<td>42</td>
+<td>PEngTaL4p</td>
+<td>Percentage of pupils with Level 4 or above in English Teacher Assessment</td>
+</tr>
+<tr>
+<td>43</td>
+<td>PMatTaL4p</td>
+<td>Percentage of pupils with Level 4 or above in maths Teacher Assessment</td>
+</tr>
+<tr>
+<td>44</td>
+<td>PSciTaL4p</td>
+<td>Percentage of pupils with Level 4 or above in science Teacher Assessment</td>
+</tr>
+<tr>
+<td>45</td>
+<td>PEngTaL5</td>
+<td>Percentage of pupils with Level 5 in English Teacher Assessment</td>
+</tr>
+<tr>
+<td>46</td>
+<td>PMatTaL5</td>
+<td>Percentage of pupils with Level 5 in maths Teacher Assessment</td>
+</tr>
+<tr>
+<td>47</td>
+<td>PSciTaL5</td>
+<td>Percentage of pupils with Level 5 in science Teacher Assessment</td>
+</tr>
+<tr>
+<td>48</td>
+<td>PEngTaAd</td>
+<td>Percentage of pupils absent or disapplied in English Teacher Assessment</td>
+</tr>
+<tr>
+<td>49</td>
+<td>PMatTaAd</td>
+<td>Percentage of pupils absent or disapplied in maths Teacher Assessment</td>
+</tr>
+<tr>
+<td>50</td>
+<td>PSciTaAd</td>
+<td>Percentage of pupils absent or disapplied in science Teacher Assessment</td>
+</tr>
+<tr>
+<td>51</td>
+<td>CvaMea</td>
+<td>CVA measure for pupils at the end of KS2</td>
+</tr>
+<tr>
+<td>52</td>
+<td>CvaCov</td>
+<td>Coverage indicator - percentage of pupils at the end of KS2 included in CVA calculation</td>
+</tr>
+<tr>
+<td>53</td>
+<td>CvaLconf</td>
+<td>Lower range of CVA Confidence interval</td>
+</tr>
+<tr>
+<td>54</td>
+<td>CvaUconf</td>
+<td>Upper range of CVA Confidence interval</td>
+</tr>
+<tr>
+<td>55</td>
+<td>PProgEng2p</td>
+<td>Percentage of pupils achieving 2 or more levels of progress in English</td>
+</tr>
+<tr>
+<td>56</td>
+<td>ProgEngCov</td>
+<td>Percentage of pupils in English progress measure </td>
+</tr>
+<tr>
+<td>57</td>
+<td>PProgMat2p</td>
+<td>Percentage of pupils achieving 2 or more levels of progress in maths</td>
+</tr>
+<tr>
+<td>58</td>
+<td>ProgMatCov</td>
+<td>Percentage of pupils in maths progress measure </td>
+</tr>
+<tr>
+<td>59</td>
+<td>FlagKs4</td>
+<td>Flag indicates if school will be published in the Key Stage 4 Performance Tables</td>
+</tr>
+<tr>
+<td>60</td>
+<td>FlagKs5</td>
+<td>Flag indicates if school will be published in the Key Stage 5 Performance Tables</td>
+</tr>
+<tr>
+<td>61</td>
+<td>LaCov</td>
+<td>Percentage of eligible pupils who did not have a boycott flag (LA and national records only)</td>
+</tr>
+<tr>
+<td>62</td>
+<td>PAbsTot</td>
+<td>Percentage of sessions missed through total absence (both authorised and unauthorised) </td>
+</tr>
+<tr>
+<td>63</td>
+<td>PAbsUa</td>
+<td>Percentage of sessions missed through total unauthorised absence</td>
+</tr>
+<tr>
+<td>64</td>
+<td>PAbsPa</td>
+<td>Percentage of pupils in school with persistent absence</td>
+</tr>
+<tr>
+<td>65</td>
+<td>FlagAbs</td>
+<td>Flag indicates if school's absence data was affected by severe weather conditions</td>
+</tr>
+</table>
+
+	</div>
+</div>
+<!-- start dfe2014 footer-->
+<footer class="dfe2014 row dfe2014-footer" role="contentinfo">
+    <div class="columns-three">
+        <ul class="dfe2014-list-horizontal">
+            <li><a href="http://www.education.gov.uk/help/legalinformation/a005237/use-of-crown-copyright-material">&copy; Crown copyright</a></li>
+            <li><a href="http://www.education.gov.uk/help/legalinformation">Legal information</a></li>
+            <li><a href="http://www.education.gov.uk/help/Accessibility">Accessibility</a></li>
+            <li><a href="http://www.education.gov.uk/help/legalinformation/a0077793/cookies">Cookies</a></li>
+            <li><a href="https://www.education.gov.uk/help/contactus">Contact DfE</a></li>
+            <li><a href="https://www.education.gov.uk/help/contactus/dfe">Freedom of information</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- end dfe2014 footer-->   
+
+    <!--BEGIN_EXCLUDE--><script type="text/javascript" src="http://media.education.gov.uk/consumption/js/core/ProphetInsert.js"></script><!--END_EXCLUDE--><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-10311450-17");pageTracker._trackPageview();} catch(err) {}</script>
+</div>
+</body>
+</html>
