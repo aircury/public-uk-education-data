@@ -1,0 +1,6 @@
+"Variable","Label","Type","Description"
+"LA","Local Authority Number","",""
+"Estab","School number","",""
+"URN","Unique Reference Number","",""
+"PERCTOT","Overall absence: percentage","PCT1","Percentage of possible sessions (half-days) recorded as an absence from school for whatever reason, whether authorised or unauthorised."
+"PPERSABS15","Persistent absence: around 15% +","PCT1","The percentage of pupil enrolments with 38 or more recorded sessions (half days) of absence over the Autumn term and the Spring term combined."
