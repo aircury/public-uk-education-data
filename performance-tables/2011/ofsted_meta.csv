@@ -1,0 +1,9 @@
+"Variable","Label","Type","Description"
+"LA","Local Authority Number","",""
+"URN","Unique Reference Number","",""
+"SCHOOLNAME","School name","",""
+"PHASE","Phase","",""
+"INSPDATE","Inspection date","DATE",""
+"INSPOUTCOME","Inspection outcome","INTEGEROFSTED",""
+"REPORTURL","Web link","URL",""
+* for an explanation of this grading please refer to the guidance

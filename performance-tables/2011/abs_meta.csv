@@ -1,0 +1,8 @@
+"Variable","Label","Type","Description"
+"LA","Local Authority Number","",""
+"Estab","School number","",""
+"URN","Unique Reference Number","",""
+"PERCTOT","Overall absence: percentage","PCT2",""
+"PERCUA","Unauthorised absence: percentage","PCT2",""
+"PPERSABS15","Persistent absence: 15% +","PCT1",""
+"PPERSABS20","Persistent absence: 20% +","PCT1",""
