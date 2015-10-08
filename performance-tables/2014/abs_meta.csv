@@ -1,0 +1,6 @@
+"Variable","Label","Type","Description"
+"LA","Local Authority Number","",""
+"ESTAB","School number","",""
+"URN","Unique Reference Number","",""
+"PERCTOT","Overall absence: percentage","PCT1","Percentage of possible sessions recorded as an absence from school for whatever reason, whether authorised or unauthorised."
+"PPERSABS15","Persistent absence: around 15% +","PCT1","The percentage of pupil enrolments missing around 15 per cent or more possible sessions over the full academic year. This equates to missing 56 or more sessions for pupils aged 5-14 and 46 or more sessions for those aged 15."
