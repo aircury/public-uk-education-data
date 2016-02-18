@@ -73,7 +73,7 @@ function progressCallback($resource, $download_size, $downloaded_size, $upload_s
             '    %2s%% - Elapsed: %.0fs - Remaining: %.0fs' . "\n",
             $progress,
             $elapsed,
-            0 == $progress ? 0 : 100 * (microtime(true) - $timeStarted) / $progress
+            0 == $progress ? 0 : (100 * (microtime(true) - $timeStarted) / $progress) - $elapsed
         );
 
         $lastElapsed = $elapsed;
