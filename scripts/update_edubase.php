@@ -1,7 +1,6 @@
 <?php
 
 set_time_limit(0); // This is a script and the Internet connection might be limited
-ini_set('default_socket_timeout', 5 * 60); // Set the download timeout to 5 minutes
 
 $today           = date('Ymd');
 $baseDownloadUrl = 'http://www.education.gov.uk/edubase/';
@@ -23,10 +22,60 @@ $downloadList    = array(
 foreach ($downloadList as $downloadFolder => $urls) {
     foreach ($urls as $url) {
         $fileUrl = $baseDownloadUrl . sprintf($url, $today);
+        $target  = sprintf('%s/../edubase/%s/%s', __DIR__, $downloadFolder, sprintf($url, ''));
+
         echo sprintf('Downloading %s ...%s', $fileUrl, PHP_EOL);
-        $contents = file_get_contents($fileUrl);
-        file_put_contents(sprintf('%s/../edubase/%s/%s', __DIR__, $downloadFolder, sprintf($url, '')), $contents);
+
+        $targetFile = fopen($target, 'w');
+        $ch         = curl_init();
+
+        curl_setopt_array(
+            $ch,
+            array(
+                CURLOPT_URL              => $fileUrl,
+                CURLOPT_RETURNTRANSFER   => true,
+                CURLOPT_NOPROGRESS       => false,
+                CURLOPT_PROGRESSFUNCTION => 'progressCallback',
+                CURLOPT_FILE             => $targetFile,
+                CURLOPT_TIMEOUT          => 10 * 60 // Set the download timeout to 5 minutes
+            )
+        );
+
+        curl_exec($ch);
+
+        curl_close($ch);
+
+        fclose($targetFile);
     }
 }
 
 file_put_contents(sprintf('%s/../edubase/last-updated.txt', __DIR__), date('d-m-Y H:i:s') . PHP_EOL);
+
+function progressCallback($resource, $download_size, $downloaded_size, $upload_size, $uploaded_size)
+{
+    static $timeStarted = 0;
+    static $lastElapsed = 0;
+
+    if (0 === $timeStarted) {
+        $timeStarted = microtime(true);
+    }
+
+    $elapsed = microtime(true) - $timeStarted;
+
+    if ($elapsed - $lastElapsed > 5) {
+        if ($download_size == 0) {
+            $progress = 0;
+        } else {
+            $progress = round($downloaded_size * 100 / $download_size);
+        }
+
+        echo sprintf(
+            '    %2s%% - Elapsed: %.0fs - Remaining: %.0fs' . "\n",
+            $progress,
+            $elapsed,
+            0 == $progress ? 0 : 100 * (microtime(true) - $timeStarted) / $progress
+        );
+
+        $lastElapsed = $elapsed;
+    }
+}
