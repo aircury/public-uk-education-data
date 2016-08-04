@@ -16,6 +16,10 @@ $downloadList    = array(
     'academies-and-free-schools' => array(
         'edubaseallacademiesandfree%s.csv',
         'links_edubaseallacademiesandfree%s.csv',
+        'grouplinks_edubaseallacademiesandfree%s.csv',
+    ),
+    'childrens-centres' => array(
+        'edubaseallchildrencentre%s.csv',
     ),
 );
 
