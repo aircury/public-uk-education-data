@@ -4,24 +4,29 @@ set_time_limit(0); // This is a script and the Internet connection might be limi
 
 $today           = date('Ymd');
 $baseDownloadUrl = 'http://www.education.gov.uk/edubase/';
-$downloadList    = array(
-    'all-data'                   => array(
+$downloadList    = [
+    'all-data'                   => [
         'edubasealldata%s.csv',
         'links_edubasealldata%s.csv',
-    ),
-    'state-funded'               => array(
+    ],
+    'state-funded'               => [
         'edubaseallstatefunded%s.csv',
         'links_edubaseallstatefunded%s.csv',
-    ),
-    'academies-and-free-schools' => array(
+    ],
+    'academies-and-free-schools' => [
         'edubaseallacademiesandfree%s.csv',
         'links_edubaseallacademiesandfree%s.csv',
         'grouplinks_edubaseallacademiesandfree%s.csv',
-    ),
-    'childrens-centres' => array(
+    ],
+    'childrens-centres'          => [
         'edubaseallchildrencentre%s.csv',
-    ),
-);
+    ],
+    'governance'                 => [
+        'governancematdata%s.csv',
+        'governanceacaddata%s.csv',
+        'governanceladata%s.csv',
+    ],
+];
 
 foreach ($downloadList as $downloadFolder => $urls) {
     foreach ($urls as $url) {
@@ -35,14 +40,14 @@ foreach ($downloadList as $downloadFolder => $urls) {
 
         curl_setopt_array(
             $ch,
-            array(
+            [
                 CURLOPT_URL              => $fileUrl,
                 CURLOPT_RETURNTRANSFER   => true,
                 CURLOPT_NOPROGRESS       => false,
                 CURLOPT_PROGRESSFUNCTION => 'progressCallback',
                 CURLOPT_FILE             => $targetFile,
                 CURLOPT_TIMEOUT          => 10 * 60 // Set the download timeout to 5 minutes
-            )
+            ]
         );
 
         curl_exec($ch);
