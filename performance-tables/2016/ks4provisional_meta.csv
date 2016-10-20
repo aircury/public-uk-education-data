@@ -1,0 +1,16 @@
+Metafile heading,Metafile description,Null field for special schools,Null field for Local Authority,Null field for National (all schools) records,Null field for National (maintained schools) records
+RECTYPE,Record type (1=mainstream school; 2=special school; 4=Local Authority; 5=National (all schools); 7=National (maintained schools)),,,,
+LEA,Local Authority code,,,Yes,Yes
+ESTAB,Establishment number,,Yes,Yes,Yes
+URN,School Unique Reference Number,,Yes,Yes,Yes
+ICLOSE,Closed school flag (0=open; 1=closed),,Yes,Yes,Yes
+NFTYPE,School type,,Yes,Yes,Yes
+TPUP,Number of pupils at the end of key stage 4,,,,
+ATT8SCR,Average Attainment 8 score per pupil,,,,
+P8MEA,Progress 8 measure,,,Yes,
+P8CILOW,Lower 95% confidence interval for Progress 8 measure,,,Yes,Yes
+P8CIUPP,Upper 95% confidence interval for Progress 8 measure,,,Yes,Yes
+PTEBACC_E_PTQ_EE,Percentage of key stage 4 pupils with entries in all English Baccalaureate subject areas,,,,
+PTEBACC_PTQ_EE,Percentage of key stage 4 pupils achieving the English Baccalaureate,,,,
+PTL2BASICS_LL_PTQ_EE,Percentage of key stage 4 pupils achieving grades A*-C in both English and mathematics GCSEs,,,,
+PTAC5EM_PTQ_EE,Percentage of pupils achieving 5+ A*-C or equivalents including A*-C in both English and mathematics GCSEs,,,,
