@@ -3,7 +3,7 @@
 set_time_limit(0); // This is a script and the Internet connection might be limited
 
 $today           = date('Ymd');
-$baseDownloadUrl = 'http://www.education.gov.uk/edubase/';
+$baseDownloadUrl = 'http://ea-edubase-api-prod.azurewebsites.net/edubase/';
 $downloadList    = [
     'all-data'                   => [
         'edubasealldata%s.csv',
@@ -16,12 +16,18 @@ $downloadList    = [
     'academies-and-free-schools' => [
         'edubaseallacademiesandfree%s.csv',
         'links_edubaseallacademiesandfree%s.csv',
+    ],
+    'groups' => [
         'grouplinks_edubaseallacademiesandfree%s.csv',
+        'groups/allgroupsdata.csv',
+        'groups/alllinks.csv',
     ],
     'childrens-centres'          => [
         'edubaseallchildrencentre%s.csv',
+        'links_edubaseallchildrencentre%s.csv',
     ],
     'governance'                 => [
+        'governancealldata%s.csv',
         'governancematdata%s.csv',
         'governanceacaddata%s.csv',
         'governanceladata%s.csv',
@@ -31,7 +37,7 @@ $downloadList    = [
 foreach ($downloadList as $downloadFolder => $urls) {
     foreach ($urls as $url) {
         $fileUrl = $baseDownloadUrl . sprintf($url, $today);
-        $target  = sprintf('%s/../edubase/%s/%s', __DIR__, $downloadFolder, sprintf($url, ''));
+        $target  = sprintf('%s/../edubase/%s/%s', __DIR__, $downloadFolder, str_replace('/', '_', sprintf($url, '')));
 
         echo sprintf('Downloading %s ...%s', $fileUrl, PHP_EOL);
 
