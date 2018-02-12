@@ -1,0 +1,228 @@
+16-18 excel and csv download data files: field names and descriptions,,,,,,
+ '.' indicates that a field is intentionally null/blank,,,,,,
+"Note: retention, and completion and attainment data will be made available in March.",,,,,,
+,,,,,,
+Column,Field Name,Field description,Null/blank field for Rectype 1,Null/blank field for Rectype 3,Null/blank field for Rectype 4,Null/blank field for Rectype 5 or 7
+A,RECTYPE,"Record type: 
+1= school or college; 
+3= sixth form centre/consortium (see separate list of the sixth form centres and consortia and their feeder schools and colleges); 
+4= Local Authority; 
+5= National (all schools and colleges); 
+7= National (state-funded schools and colleges)",,,,
+B,ALPHAIND,Alphabetic index,,,.,.
+C,REGION,Region code (see separate list of region and local authority codes),,,,.
+D,LASORT,Local authority sort code within region,,,,.
+E,LEA,Local authority number,,,,.
+F,ESTAB,Establishment number,,,.,.
+G,URN,Unique Reference Number of establishment,,,.,.
+H,SCHNAME_AC,Name of converter academy,,.,.,.
+I,SCHNAME,School/college name,,,.,.
+J,ADDRESS1,School/college address (1),,.,.,.
+K,ADDRESS2,School/college address (2),,.,.,.
+L,ADDRESS3,School/college address (3),,,.,.
+M,TOWN,Town where school/college is located,,,.,.
+N,PCODE,School/college postcode,,,.,.
+O,TELNUM,School/college telephone number ,,,.,.
+P,CONTFLAG,"Contingency flag: results significantly affected: 
+0= not significantly affected; 1= significantly affected",,,,.
+Q,NFTYPE/FESITYPE,School type/FE college type,,,.,.
+R,RELDENOM,Religious character ,,,.,.
+S,ADMPOL,"Admissions policy
+",,,.,.
+T,ADMPOL_2017,Admissions policy - new definition from 2017 onwards,,,.,.
+U,GEND1618,"Gender of sixth form: girls, boys or mixed",,,.,.
+V,FEEDER,"Indicates whether a school/college is a feeder school/college for sixth form centre or consortium:
+0= not a feeder school/college; 1= feeder school/college",,,.,.
+W,AGERANGE,Age range,,,.,.
+X,ICLOSE,Closed school/college flag: 0= open; 1= closed,,.,.,.
+Y,TABKS2,"Indicates if a school is published in the primary school (Key Stage 2) performance tables:
+0= No; 1= Yes",,.,.,.
+Z,TAB15,"Indicates if a school or college is published in the secondary school (Key Stage 4) performance tables: 
+0= No; 1= Yes",,.,.,.
+AA,EXAMCONF,"Indicates if a school or college has confirmed their results:
+blank/null= confirmed; R= not confirmed",,.,.,.
+AB,DUMMY,Dummy field,.,.,.,.
+AC,TPUP1618,Number of 16-18 year old students in sixth form,,,.,.
+AD,TALLPUP_1618,Number of students aged 16-18 at the end of 16-18 study (includes students who entered for advanced level 3 qualifications or below-level 3 qualifications),,,.,.
+AE,TALLPUP_ALEV_1618,Number of students at the end of 16-18 study who entered for at least one AS or A level qualification,,,.,.
+AF,TALLPPE_ALEV_1618,Average point score per A level entry,,,,
+AG,TALLPPEGRD_ALEV_1618,Average point score per A level entry expressed as a grade,,,,
+AH,TINCLUDE_B3,Number of students included in the best 3 A levels measure,,,.,.
+AI,TB3PTSE,Average point score in best 3 A level entries,,,,
+AJ,TB3PTSE_GRD,Average point score in best 3 A level entries expressed as a grade,,,,
+AK,TINCLUDE_AAB_2FAC,Number of students included in AAB in 2 facilitating subjects measure,,,.,.
+AL,PTAAB_2FAC,"Percentage of A level students achieving at least three levels at grades AAB or better, at least two of which are in facilitating subjects",,,,
+AM,TALLPUP_ACAD_1618,Number of students at the end of 16-18 study who entered for at least one advanced (level 3) academic qualification,,,.,.
+AN,TALLPPE_ACAD_1618,Average point score per academic entry,,,,
+AO,TALLPPEGRD_ACAD_1618,Average point score per academic entry expressed as a grade,,,,
+AP,TALLPUP_AGEN,Number of students at the end of 16-18 study who entered for ant least one applied general qualification,,,.,.
+AQ,TALLPPE_AGEN,Average point score per applied general entry,,,,
+AR,TALLPPEGRD_AGEN,Average point score per applied general entry expressed as a grade,,,,
+AS,TALLPUP_TLEV,Number of students at the end of 16-18 study who entered for at least one tech level qualification,,,.,.
+AT,TALLPPE_TLEV,Average point score per tech level entry,,,,
+AU,TALLPPEGRD_TLEV,Average point score per tech level entry expressed as a grade,,,,
+AV,TTECH_BACC,"Number of students achieving a TechBacc (ie, a tech level, an extended project qualification and core maths or equivalent maths qualification)",,,,
+AW,T_SCOPEEX_E,Number of students at the end of 16-18 study included in the English progress measure,,,.,.
+AX,PROGEX_E,Average progress made in English,,,,
+AY,T_SCOPEEX_M,Number of students at the end of 16-18 study included in the maths progress measure,,,.,.
+AZ,PROGEX_M,Average progress made in maths,,,,
+BA,TALLPUP_SCOPE_L3M,Number of students in scope for level 3 maths measure,,,.,.
+BB,L3M_PER,Percentage of students in scope for the level 3 maths measure who achieved approved a level 3 maths qualification,,,,
+BC,T_InScope_ALEV_Ret,Number of students at the end of 16-18 study with an A level core aim,,,.,.
+BD,PT_Retained_ALEV_Ret,Percentage of A level core aims retained,,,,
+BE,PT_Ret_Assessed_ALEV,Percentage of A Level core aims retained and assessed,,,,
+BF,T_InScope_ALEV_2ndYr,Number of students in scope for returned and retained for a second year where core aim is an A Level,,,.,.
+BG,PT_Retained_ALEV_2ndYr,Percentage of students who were retained for a second year with an A Level programme core aim,,,,
+BH,T_InScope_ACAD_Ret,Number of students at the end of 16-18 study with an academic core aim,,,.,.
+BI,PT_Retained_ACAD_Ret,Percentage of academic core aims retained,,,,
+BJ,PT_Ret_Assessed_ACAD,Percentage of academic core aims retained and assessed,,,,
+BK,T_InScope_ACAD_2ndYr,Number of students in scope for returned and retained for a second year where core aim is an academic qualification,,,.,.
+BL,PT_Retained_ACAD_2ndYr,Percentage of students who were retained for a second year with an academic core aim,,,,
+BM,T_InScope_AGEN_Ret,Number of students at the end of 16-18 study with an applied general core aim,,,.,.
+BN,PT_Retained_AGEN_Ret,Percentage of applied general core aims retained,,,,
+BO,PT_Ret_Assessed_AGEN,Percentage of applied general core aims retained and assessed,,,,
+BP,T_InScope_AGEN_2ndYr,Number of students In scope for returned and retained for a second year where core aim is an applied general qualification,,,.,.
+BQ,PT_Retained_AGEN_2ndYr,Percentage of students who were retained for a second year with an applied general core aim,,,,
+BR,T_InScope_TLEV_Ret,Number of students at the end of 16-18 study with a tech level core aim,,,,
+BS,PT_Retained_TLEV_Ret,Percentage of tech level core aims retained,,,,
+BT,PT_Ret_Assessed_TLEV,Percentage of tech level core aims retained and assessed,,,,
+BU,T_InScope_TLEV_2ndYr,Number of students in scope for returned and retained for a second year measure where core aim is a tech level qualification,,,.,.
+BV,PT_Retained_TLEV_2ndYr,Percentage of students who were retained for a second year with a tech level core aim,,,,
+BW,T_AIMS_TLEV,Number of tech level aims (total number of qualifications studied by all students),,,.,.
+BX,CA_SCORE_TLEV,Tech level completion and attainment score,,,,
+BY,TALLPUP_TechCert,Number of students at the end of 16-18 study who were entered for at least one technical certificate qualification,,,.,.
+BZ,TALLPPE_TechCert,Average point score per technical certificate entry ,,,,
+CA,TALLPPEGRD_TechCert,Average point score per technical certificate entry expressed as a grade,,,,
+CB,T_AIMS_TechCert,Number of technical certificate aims in completion and attainment measure,,,.,.
+CC,CA_Score_TechCert,Technical certificate completion and attainment score,,,,
+CD,T_InScope_TechCert_Ret,Number of students in scope for retention measure where core aim is a tech cert programme,,,.,.
+CE,PT_Retained_TechCert_Ret,Percentage of technical certificate core aims retained,,,,
+CF,PT_Ret_Assessed_TechCert,Percentage of technical certificate core aims retained and assessed,,,,
+G,TALLPUP_L2VOC,Number of students at the end of 16-18 study who entered for at least one level 2 vocational qualification,,,.,.
+CH,TALLPUP_ANYL2VOC,"Number of students entered for at least one level 2 vocational, whose highest qualification during 16-18 study was at level 2",,,.,.
+CI,TechCert_PER,Percentage of level 2 vocational students that are technical certificate students,,,,
+CJ,TALLPPE_L2VOC,Average point score per level 2 vocational entry,,,,
+CK,TALLPPEGRD_L2VOC,Average point score per level 2 vocational entry expressed as a grade,,,,
+CL,T_AIMS_L2VOC,Number of level 2 vocational or technical certificate aims in completion and attainment measure,,,.,.
+CM,CA_Score_L2VOC,Level 2 vocational completion and attainment score,,,,
+N,T_InScope_L2VOC_Ret,Number of students in scope for retention measure where core aim is a level 2 programme,,,.,.
+CO,PT_Retained_L2VOC_Ret,Percentage of Level 2 core aims retained,,,,
+CP,PT_Ret_Assessed_L2VOC,Percentage of level 2 vocational core aims retained and assessed,,,,
+CQ,TALLPUP_1618_DIS,Number of disadvantaged students aged 16-18 at the end of 16-18 study (includes students who entered for advanced level 3 qualifications or below-level 3 qualifications),,,.,.
+CR,TALLPUP_ALEV_1618_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one AS or A level qualification,,,.,.
+CS,TALLPPE_ALEV_1618_DIS,Average point score per A level entry for disadvantaged students,,,,
+CT,TALLPPEGRD_ALEV_DIS,Average point score per A level entry for disadvantaged students expressed as a grade,,,,
+CU,TALLPUP_ACAD_1618_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one advanced (level 3) academic qualification,,,.,.
+CV,TALLPPE_ACAD_1618_DIS,Average point score per academic entry for disadvantaged students,,,,
+CW,TALLPPEGRD_ACAD_DIS,Average point score per academic entry for disadvantaged students expressed as a grade,,,,
+CX,TALLPUP_AGEN_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one applied general exam entry,,,.,.
+CY,TALLPPE_AGEN_DIS,Average point score per applied general entry for disadvantaged students,,,,
+CZ,TALLPPEGRD_AGEN_DIS,Average point score per applied general entry expressed as a grade for disadvantaged students,,,,
+DA,TALLPUP_TLEV_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one tech level exam entry,,,.,.
+DB,TALLPPE_TLEV_DIS,Average point score per tech level entry for disadvantaged students,,,,
+DC,TALLPPEGRD_TLEV_DIS,Average point score per tech level entry expressed as a grade for disadvantaged students,,,,
+DD,T_SCOPEEX_E_DIS,Number of disadvantaged students at the end of 16-18 study in scope for English progress measure,,,.,.
+DE,PROGEX_E_DIS,Average progress made in English by disadvantaged students,,,,
+DF,T_SCOPEEX_M_DIS,Number of disadvantaged students at the end of 16-18 study in scope for maths progress measure,,,.,.
+DG,PROGEX_M_DIS,Average progress made in maths by disadvantaged students,,,,
+DH,T_AIMS_TLEV_DIS,Number of Tech Level aims in completion and attainment for disadvantaged students,,,.,.
+DI,CA_Score_TLEV_DIS,Tech Level completion and attainment score for disadvantaged students,,,,
+DJ,T_InScope_ALEV_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is an A level qualification,,,.,.
+DK,PT_Retained_ALEV_Ret_DIS,Percentage of disadvantaged students who completed an A level core aim for retention measure,,,,
+DL,T_InScope_ACAD_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is an academic qualification,,,.,.
+DM,PT_Retained_ACAD_Ret_DIS,Percentage of disadvantaged students who completed an academic core aim for retention measure,,,,
+DN,T_InScope_AGEN_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is an applied general qualification,,,.,.
+DO,PT_Retained_AGEN_Ret_DIS,Percentage of disadvantaged students who completed an applied general core aim for retention measure,,,,
+DP,T_InScope_TLEV_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is a tech level qualification,,,.,.
+DQ,PT_Retained_TLEV_Ret_DIS,Percentage of disadvantaged students who completed a tech level core aim for retention measure,,,,
+DR,TALLPUP_TechCert_DIS,Number of disadvantaged students at the end of 16-18 study entered for at least one technical certificate qualification ,,,.,.
+DS,TALLPPE_TechCert_DIS,Average point score per technical certificate entry for disadvantaged students,,,,
+DT,TALLPPEGRD_TechCert_DIS,Average point score per technical certificate entry expressed as a grade for disadvantaged students,,,,
+DU,T_AIMS_TechCert_DIS,Number of technical certificate aims in completion and attainment measure for disadvantaged students,,,.,.
+DV,CA_Score_TechCert_DIS,Technical certificate completion and attainment score for disadvantaged students,,,,
+DW,T_InScope_TechCert_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is a technical certificate programme,,,.,.
+DX,PT_Retained_TechCert_Ret_DIS,Percentage of disadvantaged students who completed a technical certificate core aim for retention measure,,,,
+DY,TALLPUP_L2VOC_DIS,Number of disadvantaged students at the end of 16-18 study entered for at least one level 2 vocational qualification,,,.,.
+DZ,TALLPPE_L2VOC_DIS,Average point score per level 2 vocational entry for disadvantaged students,,,,
+EA,TALLPPEGRD_L2VOC_DIS,Average point score per level 2 vocational entry expressed as a grade for disadvantaged students,,,,
+EB,T_AIMS_L2VOC_DIS,Number of level 2 vocational or technical certificate aims in completion and attainment for disadvantaged students,,,.,.
+EC,CA_Score_L2VOC_DIS,Level 2 vocational completion and attainment score for disadvantaged students,,,,
+ED,T_InScope_L2VOC_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is a level 2 programme,,,.,.
+EE,PT_Retained_L2VOC_Ret_DIS,Percentage of disadvantaged students who completed a level 2 core aim for retention measure,,,,
+EF,TALLPUP_1618_NOTDIS,Number of non-disadvantaged students aged 16-18 at the end of 16-18 study (includes students who entered for advanced level 3 qualifications or below-level 3 qualifications),,,.,.
+EG,TALLPUP_ALEV_1618_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered for at least one A level qualification,,,.,.
+EH,TALLPPE_ALEV_1618_NOTDIS,Average point score per A level entry for non-disadvantaged students,,,,
+EI,TALLPPEGRD_ALEV_NOTDIS,Average point score per A level entry for non-disadvantaged students expressed as a grade,,,,
+EJ,TALLPUP_ACAD_1618_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered for at least one academic qualification,,,.,.
+EK,TALLPPE_ACAD_1618_NOTDIS,Average point score per academic entry for non-disadvantaged students,,,,
+EL,TALLPPEGRD_ACAD_NOTDIS,Average point score per academic entry for non-disadvantaged students expressed as a grade,,,,
+EM,TALLPUP_AGEN_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered at lest one applied general qualification,,,.,.
+EN,TALLPPE_AGEN_NOTDIS,Average point score per applied general entry for non-disadvantaged students,,,,
+EO,TALLPPEGRD_AGEN_NOTDIS,Average point score per applied general entry expressed as a grade for non-disadvantaged students,,,,
+EP,TALLPUP_TLEV_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered for at least one tech level qualification,,,.,.
+EQ,TALLPPE_TLEV_NOTDIS,Average point score per tech level entry for non-disadvantaged students,,,,
+ER,TALLPPEGRD_TLEV_NOTDIS,Average point score per tech level entry expressed as a grade for non-disadvantaged students,,,,
+ES,T_SCOPEEX_E_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study in scope for English progress measure,,,.,.
+ET,PROGEX_E_NOTDIS,Average progress made in English by non-disadvantaged students,,,,
+EU,T_SCOPEEX_M_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study in scope for maths progress measure,,,.,.
+EV,PROGEX_M_NOTDIS,Average progress made in maths by non-disadvantaged students,,,,
+EW,T_AIMS_TLEV_NOTDIS,Number of Tech Level aims in completion and attainment for non-disadvantaged students,,,.,.
+EX,CA_Score_TLEV_NOTDIS,Tech Level completion and attainment score for non-disadvantaged students,,,,
+EY,T_InScope_ALEV_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is an A level qualification,,,.,.
+EZ,PT_Retained_ALEV_Ret_NOTDIS,Percentage of non-disadvantaged students who completed an A level core aim for retention measure,,,,
+FA,T_InScope_ACAD_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is an academic qualification,,,.,.
+FB,PT_Retained_ACAD_Ret_NOTDIS,Percentage of non-disadvantaged students who completed an academic core aim for retention measure,,,,
+FC,T_InScope_AGEN_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is an applied general qualification,,,.,.
+FD,PT_Retained_AGEN_Ret_NOTDIS,Percentage of non-disadvantaged students who completed an Applied General core aim for retention measure,,,,
+FE,T_InScope_TLEV_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is a tech level qualification,,,.,.
+FF,PT_Retained_TLEV_Ret_NOTDIS,Percentage of non-disadvantaged students who completed a tech level core aim for retention measure,,,,
+FG,TALLPUP_TechCert_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study with a technical certificate qualification entry,,,.,.
+FH,TALLPPE_TechCert_NOTDIS,Average point score per technical certificate entry for non-disadvantaged students,,,,
+FI,TALLPPEGRD_TechCert_NOTDIS,Average point score per technical certificate entry expressed as a grade for non-disadvantaged students,,,,
+FJ,T_AIMS_TechCert_NOTDIS,Number of technical certificate aims in completion and attainment for non-disadvantaged students,,,.,.
+FK,CA_Score_TechCert_NOTDIS,Technical certificate completion and attainment score for non-disadvantaged students,,,,
+FL,T_InScope_TechCert_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is a technical certificate programme,,,.,.
+FM,PT_Retained_TechCert_Ret_NOTDIS,Percentage of non-disadvantaged students who completed a technical certificate core aim for retention measure,,,,
+FN,TALLPUP_L2VOC_NOTDIS,Number of non-disadvantaged students entered for level 2 vocational qualifications,,,.,.
+FO,TALLPPE_L2VOC_NOTDIS,Average point score per level 2 vocational entry for non-disadvantaged students,,,,
+FP,TALLPPEGRD_L2VOC_NOTDIS,Average point score per level 2 vocational entry expressed as a grade for non-disadvantaged students,,,,
+FQ,T_AIMS_L2VOC_NOTDIS,Number of level 2 vocational or technical certificate aims in completion and attainment measure for non-disadvantaged students,,,.,.
+FR,CA_Score_L2VOC_NOTDIS,Level 2 vocational completion and attainment score for non-disadvantaged students,,,,
+FS,T_InScope_L2VOC_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is a level 2 programme,,,.,.
+FT,PT_Retained_L2VOC_Ret_NOTDIS,Percentage of non-disadvantaged students who completed a level 2 core aim for retention measure,,,,
+FU,ENTRIES_ALEV,Number of A level entries included in value added measure,,,.,.
+FV,VA_INS_ALEV,A level value added score,,,.,.
+FW,UCI_INS_ALEV,A level  value added upper confidence limit,,,.,.
+FX,LCI_INS_ALEV,A level value added lower confidence limit,,,.,.
+FY,ENTRIES_ACAD,Number of academic entries included in value added measure,,,.,.
+FZ,VA_INS_ACAD,Academic value added score,,,.,.
+GA,UCI_INS_ACAD,Academic value added upper confidence limit,,,.,.
+GB,LCI_INS_ACAD,Academic value added lower confidence limit,,,.,.
+GC,ENTRIES_AGEN,Number of applied general entries included in value added measure,,,.,.
+GD,VA_INS_AGEN,Applied general value added score,,,.,.
+GE,UCI_INS_AGEN,Applied general value added upper confidence limit,,,.,.
+GF,LCI_INS_AGEN,Applied general value added lower confidence limit,,,.,.
+GG,ENTRIES_ALEV_DIS,Number of A level entries by disadvantaged students included in value added measure,,,.,.
+GH,VA_INS_ALEV_DIS,A level value added score for disadvantaged students,,,.,.
+GI,UCI_INS_ALEV_DIS,A level  value added upper confidence limit for disadvantaged students,,,.,.
+GJ,LCI_INS_ALEV_DIS,A level value added lower confidence limit for disadvantaged students,,,.,.
+GK,ENTRIES_ACAD_DIS,Number of academic entries by disadvantaged students included in value added measure,,,.,.
+GL,VA_INS_ACAD_DIS,Academic value added score for disadvantaged students,,,.,.
+GM,UCI_INS_ACAD_DIS,Academic value added upper confidence limit for disadvantaged students,,,.,.
+GN,LCI_INS_ACAD_DIS,Academic value added lower confidence limit for disadvantaged students,,,.,.
+GO,ENTRIES_AGEN_DIS,Number of applied general entries by disadvantaged students included in value added measure,,,.,.
+GP,VA_INS_AGEN_DIS,Applied general value added score for disadvantaged students,,,.,.
+GQ,UCI_INS_AGEN_DIS,Applied general value added upper confidence limit for disadvantaged students,,,.,.
+GR,LCI_INS_AGEN_DIS,Applied general value added lower confidence limit for disadvantaged students,,,.,.
+GS,ENTRIES_ALEV_NOTDIS,Number of A level entries by non-disadvantaged students included in value added measure,,,.,.
+GT,VA_INS_ALEV_NOTDIS,A level value added score for non-disadvantaged students,,,.,.
+GU,UCI_INS_ALEV_NOTDIS,A level  value added upper confidence limit for non-disadvantaged students,,,.,.
+GV,LCI_INS_ALEV_NOTDIS,A level value added lower confidence limit for non-disadvantaged students,,,.,.
+GW,ENTRIES_ACAD_NOTDIS,Number of academic entries by non-disadvantaged students included in value added measure,,,.,.
+GX,VA_INS_ACAD_NOTDIS,Academic value added score for non-disadvantaged students,,,.,.
+GY,UCI_INS_ACAD_NOTDIS,Academic value added upper confidence limit for non-disadvantaged students,,,.,.
+GZ,LCI_INS_ACAD_NOTDIS,Academic value added lower confidence limit for non-disadvantaged students,,,.,.
+HA,ENTRIES_AGEN_NOTDIS,Number of applied general entries by non-disadvantaged students included in value added measure,,,.,.
+HB,VA_INS_AGEN_NOTDIS,Applied general value added score for non-disadvantaged students,,,.,.
+HC,UCI_INS_AGEN_NOTDIS,Applied general value added upper confidence limit for non-disadvantaged students,,,.,.
+HD,LCI_INS_AGEN_NOTDIS,Applied general value added lower confidence limit for non-disadvantaged students,,,.,.
