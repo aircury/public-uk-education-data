@@ -2,14 +2,14 @@
 
 set_time_limit(0); // This is a script and the Internet connection might be limited
 
-$today           = date('Ymd');
+$today = date('Ymd');
 $baseDownloadUrl = 'http://ea-edubase-api-prod.azurewebsites.net/edubase/';
-$downloadList    = [
-    'all-data'                   => [
+$downloadList = [
+    'all-data' => [
         'edubasealldata%s.csv',
         'links_edubasealldata%s.csv',
     ],
-    'state-funded'               => [
+    'state-funded' => [
         'edubaseallstatefunded%s.csv',
         'links_edubaseallstatefunded%s.csv',
     ],
@@ -22,11 +22,11 @@ $downloadList    = [
         'groups/allgroupsdata.csv',
         'groups/alllinks.csv',
     ],
-    'childrens-centres'          => [
+    'childrens-centres' => [
         'edubaseallchildrencentre%s.csv',
         'links_edubaseallchildrencentre%s.csv',
     ],
-    'governance'                 => [
+    'governance' => [
         'governancealldata%s.csv',
         'governancematdata%s.csv',
         'governanceacaddata%s.csv',
@@ -37,22 +37,24 @@ $downloadList    = [
 foreach ($downloadList as $downloadFolder => $urls) {
     foreach ($urls as $url) {
         $fileUrl = $baseDownloadUrl . sprintf($url, $today);
-        $target  = sprintf('%s/../edubase/%s/%s', __DIR__, $downloadFolder, str_replace('/', '_', sprintf($url, '')));
+        $target = sprintf('%s/../edubase/%s/%s', __DIR__, $downloadFolder, str_replace('/', '_', sprintf($url, '')));
+        $timeStarted = microtime(true);
+        $lastElapsed = 0;
 
         echo sprintf('Downloading %s ...%s', $fileUrl, PHP_EOL);
 
-        $targetFile = fopen($target, 'w');
-        $ch         = curl_init();
+        $targetFile = fopen($target, 'wb');
+        $ch = curl_init();
 
         curl_setopt_array(
             $ch,
             [
-                CURLOPT_URL              => $fileUrl,
-                CURLOPT_RETURNTRANSFER   => true,
-                CURLOPT_NOPROGRESS       => false,
+                CURLOPT_URL => $fileUrl,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_NOPROGRESS => false,
                 CURLOPT_PROGRESSFUNCTION => 'progressCallback',
-                CURLOPT_FILE             => $targetFile,
-                CURLOPT_TIMEOUT          => 10 * 60 // Set the download timeout to 5 minutes
+                CURLOPT_FILE => $targetFile,
+                CURLOPT_TIMEOUT => 10 * 60 // Set the download timeout to 5 minutes
             ]
         );
 
@@ -61,24 +63,22 @@ foreach ($downloadList as $downloadFolder => $urls) {
         curl_close($ch);
 
         fclose($targetFile);
+
+        if ()
     }
 }
 
 file_put_contents(sprintf('%s/../edubase/last-updated.txt', __DIR__), date('d-m-Y H:i:s') . PHP_EOL);
 
-function progressCallback($resource, $download_size, $downloaded_size, $upload_size, $uploaded_size)
+function progressCallback($resource, int $download_size, int $downloaded_size, $upload_size, $uploaded_size)
 {
-    static $timeStarted = 0;
-    static $lastElapsed = 0;
-
-    if (0 === $timeStarted) {
-        $timeStarted = microtime(true);
-    }
+    global $timeStarted;
+    global $lastElapsed;
 
     $elapsed = microtime(true) - $timeStarted;
 
     if ($elapsed - $lastElapsed > 5) {
-        if ($download_size == 0) {
+        if (0 === $download_size) {
             $progress = 0;
         } else {
             $progress = round($downloaded_size * 100 / $download_size);
@@ -88,7 +88,7 @@ function progressCallback($resource, $download_size, $downloaded_size, $upload_s
             '    %2s%% - Elapsed: %.0fs - Remaining: %.0fs' . "\n",
             $progress,
             $elapsed,
-            0 == $progress ? 0 : (100 * (microtime(true) - $timeStarted) / $progress) - $elapsed
+            0 === $progress ? 0 : (100 * (microtime(true) - $timeStarted) / $progress) - $elapsed
         );
 
         $lastElapsed = $elapsed;
