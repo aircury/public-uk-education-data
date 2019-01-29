@@ -64,7 +64,9 @@ foreach ($downloadList as $downloadFolder => $urls) {
 
         fclose($targetFile);
 
-        if ()
+        if (filesize($targetFile) < 5) {
+            throw new \RuntimeException('Something has gone wrong downloading the data from edubase');
+        }
     }
 }
 
