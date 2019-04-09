@@ -10032,6 +10032,8 @@
 121422,133610,"Poppleton Ousebank Primary School","Successor",""
 121424,121400,"Woodlands Community Junior School, Harrogate","Predecessor","25-04-2011"
 121426,144477,"Moorside Infant School","Successor","09-03-2017"
+121426,121427,"Moorside Junior School","Successor - merged","29-04-2019"
+121427,121426,"Moorside Infant School","Predecessor - merged","29-04-2019"
 121428,143287,"Hookstone Chase Primary School","Successor","31-08-2016"
 121429,142593,"Pannal Primary School","Successor","31-01-2016"
 121430,132047,"Copmanthorpe Primary School","Successor",""
