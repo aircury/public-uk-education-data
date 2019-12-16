@@ -3,7 +3,7 @@
 set_time_limit(0); // This is a script and the Internet connection might be limited
 
 $today = date('Ymd');
-$baseDownloadUrl = 'http://ea-edubase-api-prod.azurewebsites.net/edubase/';
+$baseDownloadUrl = 'https://ea-edubase-api-prod.azurewebsites.net/edubase/downloads/public/';
 $downloadList = [
     'all-data' => [
         'edubasealldata%s.csv',
