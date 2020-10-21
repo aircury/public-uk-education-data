@@ -19,8 +19,8 @@ $downloadList = [
     ],
     'groups' => [
         'grouplinks_edubaseallacademiesandfree%s.csv',
-        'allgroupsdata.csv',
-        'alllinksdata.csv',
+        'allgroupsdata%s.csv',
+        'alllinksdata%s.csv',
     ],
     'childrens-centres' => [
         'edubaseallchildrencentre%s.csv',
