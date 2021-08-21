@@ -1019,6 +1019,8 @@
 102293,135812,"Crowlands Primary School","Successor","17-03-2009"
 102297,131426,"The Mawney Foundation  School","Successor",""
 102298,131426,"The Mawney Foundation  School","Successor",""
+102299,102300,"Parklands Infant School","Predecessor - merged","01-09-2021"
+102300,102299,"Parklands Junior School","Successor - merged","01-09-2021"
 102301,141173,"Rise Park Junior School","Successor","13-08-2014"
 102302,141299,"Rise Park Infant School","Successor","31-08-2014"
 102305,102276,"Hylands Primary School","Successor","31-08-2009"
