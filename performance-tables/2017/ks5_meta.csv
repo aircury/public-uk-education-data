@@ -1,6 +1,5 @@
-16-18 excel and csv download data files: field names and descriptions,,,,,,
+﻿16-18 excel and csv download data files: field names and descriptions,,,,,,
  '.' indicates that a field is intentionally null/blank,,,,,,
-"Note: retention, and completion and attainment data will be made available in March.",,,,,,
 ,,,,,,
 Column,Field Name,Field description,Null/blank field for Rectype 1,Null/blank field for Rectype 3,Null/blank field for Rectype 4,Null/blank field for Rectype 5 or 7
 A,RECTYPE,"Record type: 
