@@ -1,0 +1,6 @@
+Column,Variable,Label,Type,Description
+A,LA,Local Authority Number,TEXT,
+B,ESTAB,DfE number of establishment within LA,TEXT,
+C,URN,School unique Reference Number,TEXT,
+D,PERCTOT,Percentage of overall absence,PCT,Percentage of overall absence (authorised and unauthorised) for the full 2018/19 academic year.
+E,PPERSABS10,Percentage of enrolments who are persistent absentees,PCT,Percentage of enrolments who are persistent absentees - missing 10% or more of possible sessions across the full 2018/19 academic year.

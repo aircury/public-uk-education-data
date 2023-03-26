@@ -1,0 +1,500 @@
+﻿2019 KS5 excel and csv download data files: field names and descriptions,,,,,,
+ '.' indicates that a field is intentionally null/blank,,,,,,
+"Note: retention, and completion and attainment data will be made available in March.",,,,,,
+,,,,,,
+Column,Field Name,Field description,Null/blank field for Rectype 1,Null/blank field for Rectype 3,Null/blank field for Rectype 4,Null/blank field for Rectype 5 or 7
+A,RECTYPE,"Record type: 
+1= school or college; 
+3= sixth form centre/consortium (see separate list of the sixth form centres and consortia and their feeder schools and colleges); 
+4= Local Authority; 
+5= National (all schools and colleges); 
+7= National (state-funded schools and colleges)",,,,
+B,ALPHAIND,Alphabetic index,,,.,.
+C,REGION,Region code (see separate list of region and local authority codes),,,,.
+D,LASORT,Local authority sort code within region,,.,,.
+E,LEA,LA number,,,,.
+F,ESTAB,Establishment number,,,.,.
+G,URN,Unique Reference Number of establishment,,,.,.
+H,PCON_CODE,School parliamentary constituency code,,.,.,.
+I,PCON_NAME,School parliamentary constituency name,,.,.,.
+J,SCHNAME_AC,Name of converter academy,,.,.,.
+K,SCHNAME,School/college name,,,.,.
+L,ADDRESS1,School/college address (1),,.,.,.
+M,ADDRESS2,School/college address (2),,.,.,.
+N,ADDRESS3,School/college address (3),,,.,.
+O,TOWN,Town where school/college is located,,,.,.
+P,PCODE,School/college postcode,,,.,.
+Q,TELNUM,School/college telephone number ,,,.,.
+R,CONTFLAG,"Contingency flag: results significantly affected: 
+0= not significantly affected; 1= significantly affected",,,,.
+S,NFTYPE/FESITYPE,School type/FE college type,,,.,.
+T,RELDENOM,Religious character ,,,.,.
+U,ADMPOL,"Admissions policy
+",,,.,.
+V,ADMPOL_PT,Admissions policy - new definition from 2019 onwards,,.,.,.
+W,GEND1618,"Gender of sixth form: girls, boys or mixed",,.,.,.
+X,FEEDER,"Indicates whether a school/college is a feeder school/college for sixth form centre or consortium:
+0= not a feeder school/college; 1= feeder school/college",,.,.,.
+Y,AGERANGE,Age range,,.,.,.
+Z,ICLOSE,Closed school/college flag: 0= open; 1= closed,,.,.,.
+AA,TABKS2,"Indicates if a school is published in the primary school (Key Stage 2) performance tables:
+0= No; 1= Yes",,.,.,.
+AB,TAB15,"Indicates if a school or college is published in the secondary school (Key Stage 4) performance tables: 
+0= No; 1= Yes",,.,.,.
+AC,EXAMCONF,"Indicates if a school or college has confirmed their results:
+blank/null= confirmed; R= not confirmed",.,.,.,.
+AD,DUMMY,Dummy field,.,.,.,.
+AE,TPUP1618,Number of 16-18 year old students in sixth form,,,.,.
+AF,TALLPUP_1618,Number of students aged 16-18 at the end of 16-18 study (includes students who entered for advanced level 3 qualifications or below-level 3 qualifications),,,,
+AG,TALLPUP_ALEV_1618,Number of students at the end of 16-18 study who entered for at least one AS or A level qualification,,,,
+AH,TALLPPE_ALEV_1618,Average point score per A level entry,,,,
+AI,TALLPPEGRD_ALEV_1618,Average point score per A level entry expressed as a grade,,,,
+AJ,TINCLUDE_B3,Number of students included in the best 3 A levels measure,,,,
+AK,TB3PTSE,Average point score in best 3 A level entries,,,,
+AL,TB3PTSE_GRD,Average point score in best 3 A level entries expressed as a grade,,,,
+AM,TINCLUDE_AAB_2FAC,Number of students included in AAB in 2 facilitating subjects measure,,,,
+AN,PTAAB_2FAC,"Percentage of A level students achieving at least three levels at grades AAB or better, at least two of which are in facilitating subjects",,,,
+AO,TALLPUP_ACAD_1618,Number of students at the end of 16-18 study who entered for at least one advanced (level 3) academic qualification,,,,
+AP,TALLPPE_ACAD_1618,Average point score per academic entry,,,,
+AQ,TALLPPEGRD_ACAD_1618,Average point score per academic entry expressed as a grade,,,,
+AR,TALLPUP_AGEN,Number of students at the end of 16-18 study who entered for ant least one applied general qualification,,,,
+AS,TALLPPE_AGEN,Average point score per applied general entry,,,,
+AT,TALLPPEGRD_AGEN,Average point score per applied general entry expressed as a grade,,,,
+AU,TALLPUP_TLEV,Number of students at the end of 16-18 study who entered for at least one tech level qualification,,,,
+AV,TALLPPE_TLEV,Average point score per tech level entry,,,,
+AW,TALLPPEGRD_TLEV,Average point score per tech level entry expressed as a grade,,,,
+AX,TTECH_BACC,"Number of students achieving a TechBacc (ie, a tech level, an extended project qualification and core maths or equivalent maths qualification)",,,,
+AY,TALLPUP_TLEVDENOM,Number of trigger students for 'level 3 vocational quals' - ignoring discounting and applied general,,,,
+AZ,TLEV_PER,Proportion of level 3 vocational students that are tech level students,,,,
+BA,TALLPUP_AGENDENOM,Number of trigger students for 'level 3 vocational quals' - ignoring discounting and tech levels,,,,
+BB,AGEN_PER,Proportion of level 3 vocational students that are applied general students,,,,
+BC,T_SCOPEEX_E,Number of students at the end of 16-18 study included in the English progress measure,,,,
+BD,PROGEX_E,Average progress made in English,,,,
+BE,ENTRY_PER_E,Proportion of students eligible for English progress measures entered for approved exams,,,,
+BF,T_SCOPEEX_M,Number of students at the end of 16-18 study included in the maths progress measure,,,,
+BG,PROGEX_M,Average progress made in maths,,,,
+BH,ENTRY_PER_M,Proportion of students eligible for maths progress measures entered for approved exams,,,,
+BI,TALLPUP_SCOPE_L3M,Number of students in scope for level 3 maths measure,,,,
+BJ,L3M_PER,Percentage of students in scope for the level 3 maths measure who achieved approved a level 3 maths qualification,,,,
+BK,T_InScope_ALEV_Ret,Number of students at the end of 16-18 study with an A level core aim,.,.,.,.
+BL,PT_Retained_ALEV_Ret,Percentage of A level core aims retained,.,.,.,.
+BM,PT_Ret_Assessed_ALEV,Percentage of A Level core aims retained and assessed,.,.,.,.
+BN,T_InScope_ALEV_2ndYr,Number of students in scope for returned and retained for a second year where core aim is an A Level,.,.,.,.
+BO,PT_Retained_ALEV_2ndYr,Percentage of students who were retained for a second year with an A Level programme core aim,.,.,.,.
+BP,T_InScope_ACAD_Ret,Number of students at the end of 16-18 study with an academic core aim,.,.,.,.
+BQ,PT_Retained_ACAD_Ret,Percentage of academic core aims retained,.,.,.,.
+BR,PT_Ret_Assessed_ACAD,Percentage of academic core aims retained and assessed,.,.,.,.
+BS,T_InScope_ACAD_2ndYr,Number of students in scope for returned and retained for a second year where core aim is an academic qualification,.,.,.,.
+BT,PT_Retained_ACAD_2ndYr,Percentage of students who were retained for a second year with an academic core aim,.,.,.,.
+BU,T_InScope_AGEN_Ret,Number of students at the end of 16-18 study with an applied general core aim,.,.,.,.
+BV,PT_Retained_AGEN_Ret,Percentage of applied general core aims retained,.,.,.,.
+BW,PT_Ret_Assessed_AGEN,Percentage of applied general core aims retained and assessed,.,.,.,.
+BX,T_InScope_AGEN_2ndYr,Number of students In scope for returned and retained for a second year where core aim is an applied general qualification,.,.,.,.
+BY,PT_Retained_AGEN_2ndYr,Percentage of students who were retained for a second year with an applied general core aim,.,.,.,.
+BZ,T_InScope_TLEV_Ret,Number of students at the end of 16-18 study with a tech level core aim,.,.,.,.
+CA,PT_Retained_TLEV_Ret,Percentage of tech level core aims retained,.,.,.,.
+CB,PT_Ret_Assessed_TLEV,Percentage of tech level core aims retained and assessed,.,.,.,.
+CC,T_InScope_TLEV_2ndYr,Number of students in scope for returned and retained for a second year measure where core aim is a tech level qualification,.,.,.,.
+CD,PT_Retained_TLEV_2ndYr,Percentage of students who were retained for a second year with a tech level core aim,.,.,.,.
+CE,T_AIMS_TLEV,Number of tech level aims,.,.,.,.
+CF,CA_SCORE_TLEV,Completion and Attainment score,.,.,.,.
+CG,TALLPUP_TechCert,Number of students at the end of 16-18 study who were entered for at least one technical certificate qualification,,,,
+CH,TALLPPE_TechCert,Average point score per technical certificate entry ,,,,
+CI,TALLPPEGRD_TechCert,Average point score per technical certificate entry expressed as a grade,,,,
+CJ,T_AIMS_TechCert,Number of technical certificate aims in completion and attainment measure,.,.,.,.
+CK,CA_Score_TechCert,Technical certificate completion and attainment score,.,.,.,.
+CL,T_InScope_TechCert_Ret,Number of students in scope for retention measure where core aim is a tech cert programme,.,.,.,.
+CM,PT_Retained_TechCert_Ret,Percentage of technical certificate core aims retained,.,.,.,.
+CN,PT_Ret_Assessed_TechCert,Percentage of technical certificate core aims retained and assessed,.,.,.,.
+CO,TALLPUP_ANYL2VOC,"Number of students entered for at least one level 2 vocational, whose highest qualification during 16-18 study was at level 2.",,,,
+CP,TechCert_PER,Percentage of level 2 vocational students that are technical certificate students,,,,
+CQ,TALLPUP_1618_DIS,Number of disadvantaged students aged 16-18 at the end of 16-18 study (includes students who entered for advanced level 3 qualifications or below-level 3 qualifications),,,,
+CR,TALLPUP_ALEV_1618_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one AS or A level qualification,,,,
+CS,TALLPPE_ALEV_1618_DIS,Average point score per A level entry for disadvantaged students,,,,
+CT,TALLPPEGRD_ALEV_DIS,Average point score per A level entry for disadvantaged students expressed as a grade,,,,
+CU,TALLPUP_ACAD_1618_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one advanced (level 3) academic qualification,,,,
+CV,TALLPPE_ACAD_1618_DIS,Average point score per academic entry for disadvantaged students,,,,
+CW,TALLPPEGRD_ACAD_DIS,Average point score per academic entry for disadvantaged students expressed as a grade,,,,
+CX,TALLPUP_AGEN_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one applied general exam entry,,,,
+CY,TALLPPE_AGEN_DIS,Average point score per applied general entry for disadvantaged students,,,,
+CZ,TALLPPEGRD_AGEN_DIS,Average point score per applied general entry expressed as a grade for disadvantaged students,,,,
+DA,TALLPUP_TLEV_DIS,Number of disadvantaged students at the end of 16-18 study who entered for at least one tech level exam entry,,,,
+DB,TALLPPE_TLEV_DIS,Average point score per tech level entry for disadvantaged students,,,,
+DC,TALLPPEGRD_TLEV_DIS,Average point score per tech level entry expressed as a grade for disadvantaged students,,,,
+DD,T_SCOPEEX_E_DIS,Number of disadvantaged students at the end of 16-18 study in scope for English progress measure,,,,
+DE,PROGEX_E_DIS,Average progress made in English by disadvantaged students,,,,
+DF,T_SCOPEEX_M_DIS,Number of disadvantaged students at the end of 16-18 study in scope for maths progress measure,,,,
+DG,PROGEX_M_DIS,Average progress made in maths by disadvantaged students,,,,
+DH,T_AIMS_TLEV_DIS,Number of Tech Level aims in completion and attainment for disadvantaged students,.,.,.,.
+DI,CA_Score_TLEV_DIS,Tech Level completion and attainment score for disadvantaged students,.,.,.,.
+DJ,T_InScope_ALEV_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is an A level qualification,.,.,.,.
+DK,PT_Retained_ALEV_Ret_DIS,Percentage of disadvantaged students who completed an A level core aim for retention measure,.,.,.,.
+DL,T_InScope_ACAD_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is an academic qualification,.,.,.,.
+DM,PT_Retained_ACAD_Ret_DIS,Percentage of disadvantaged students who completed an academic core aim for retention measure,.,.,.,.
+DN,T_InScope_AGEN_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is an applied general qualification,.,.,.,.
+DO,PT_Retained_AGEN_Ret_DIS,Percentage of disadvantaged students who completed an applied general core aim for retention measure,.,.,.,.
+DP,T_InScope_TLEV_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is a tech level qualification,.,.,.,.
+DQ,PT_Retained_TLEV_Ret_DIS,Percentage of disadvantaged students who completed a tech level core aim for retention measure,.,.,.,.
+DR,TALLPUP_TechCert_DIS,Number of disadvantaged students at the end of 16-18 study entered for at least one technical certificate qualification ,,,,
+DS,TALLPPE_TechCert_DIS,Average point score per technical certificate entry for disadvantaged students,,,,
+DT,TALLPPEGRD_TechCert_DIS,Average point score per technical certificate entry expressed as a grade for disadvantaged students,,,,
+DU,T_AIMS_TechCert_DIS,Number of technical certificate aims in completion and attainment measure for disadvantaged students,.,.,.,.
+DV,CA_Score_TechCert_DIS,Technical certificate completion and attainment score for disadvantaged students,.,.,.,.
+DW,T_InScope_TechCert_Ret_DIS,Number of disadvantaged students in scope for retention measure where core aim is a technical certificate programme,.,.,.,.
+DX,PT_Retained_TechCert_Ret_DIS,Percentage of disadvantaged students who completed a technical certificate core aim for retention measure,.,.,.,.
+DY,TALLPUP_1618_NOTDIS,Number of non-disadvantaged students aged 16-18 at the end of 16-18 study (includes students who entered for advanced level 3 qualifications or below-level 3 qualifications),,,,
+DZ,TALLPUP_ALEV_1618_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered for at least one A level qualification,,,,
+EA,TALLPPE_ALEV_1618_NOTDIS,Average point score per A level entry for non-disadvantaged students,,,,
+EB,TALLPPEGRD_ALEV_NOTDIS,Average point score per A level entry for non-disadvantaged students expressed as a grade,,,,
+EC,TALLPUP_ACAD_1618_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered for at least one academic qualification,,,,
+ED,TALLPPE_ACAD_1618_NOTDIS,Average point score per academic entry for non-disadvantaged students,,,,
+EE,TALLPPEGRD_ACAD_NOTDIS,Average point score per academic entry for non-disadvantaged students expressed as a grade,,,,
+EF,TALLPUP_AGEN_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered at lest one applied general qualification,,,,
+EG,TALLPPE_AGEN_NOTDIS,Average point score per applied general entry for non-disadvantaged students,,,,
+EH,TALLPPEGRD_AGEN_NOTDIS,Average point score per applied general entry expressed as a grade for non-disadvantaged students,,,,
+EI,TALLPUP_TLEV_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study who entered for at least one tech level qualification,,,,
+EJ,TALLPPE_TLEV_NOTDIS,Average point score per tech level entry for non-disadvantaged students,,,,
+EK,TALLPPEGRD_TLEV_NOTDIS,Average point score per tech level entry expressed as a grade for non-disadvantaged students,,,,
+EL,T_SCOPEEX_E_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study in scope for English progress measure,,,,
+EM,PROGEX_E_NOTDIS,Average progress made in English by non-disadvantaged students,,,,
+EN,T_SCOPEEX_M_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study in scope for maths progress measure,,,,
+EO,PROGEX_M_NOTDIS,Average progress made in maths by non-disadvantaged students,,,,
+EP,T_AIMS_TLEV_NOTDIS,Number of Tech Level aims in completion and attainment for non-disadvantaged students,.,.,.,.
+EQ,CA_Score_TLEV_NOTDIS,Tech Level completion and attainment score for non-disadvantaged students,.,.,.,.
+ER,T_InScope_ALEV_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is an A level qualification,.,.,.,.
+ES,PT_Retained_ALEV_Ret_NOTDIS,Percentage of non-disadvantaged students who completed an A level core aim for retention measure,.,.,.,.
+ET,T_InScope_ACAD_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is an academic qualification,.,.,.,.
+EU,PT_Retained_ACAD_Ret_NOTDIS,Percentage of non-disadvantaged students who completed an academic core aim for retention measure,.,.,.,.
+EV,T_InScope_AGEN_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is an applied general qualification,.,.,.,.
+EW,PT_Retained_AGEN_Ret_NOTDIS,Percentage of non-disadvantaged students who completed an Applied General core aim for retention measure,.,.,.,.
+EX,T_InScope_TLEV_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is a tech level qualification,.,.,.,.
+EY,PT_Retained_TLEV_Ret_NOTDIS,Percentage of non-disadvantaged students who completed a tech level core aim for retention measure,.,.,.,.
+EZ,TALLPUP_TechCert_NOTDIS,Number of non-disadvantaged students at the end of 16-18 study with a technical certificate qualification entry,,,,
+FA,TALLPPE_TechCert_NOTDIS,Average point score per technical certificate entry for non-disadvantaged students,,,,
+FB,TALLPPEGRD_TechCert_NOTDIS,Average point score per technical certificate entry expressed as a grade for non-disadvantaged students,,,,
+FC,T_AIMS_TechCert_NOTDIS,Number of technical certificate aims in completion and attainment for non-disadvantaged students,.,.,.,.
+FD,CA_Score_TechCert_NOTDIS,Technical certificate completion and attainment score for non-disadvantaged students,.,.,.,.
+FE,T_InScope_TechCert_Ret_NOTDIS,Number of non-disadvantaged students in scope for retention measure where core aim is a technical certificate programme,.,.,.,.
+FF,PT_Retained_TechCert_Ret_NOTDIS,Percentage of non-disadvantaged students who completed a technical certificate core aim for retention measure,.,.,.,.
+FG,ENTRIES_ALEV,Number of A level entries included in value added measure,,,,
+FH,VA_INS_ALEV,A level value added score,,,,
+FI,UCI_INS_ALEV,A level  value added upper confidence limit,,,,
+FJ,LCI_INS_ALEV,A level value added lower confidence limit,,,,
+FK,PROGRESS_BAND_ALEV,A level progress band,,,,.
+FL,ENTRIES_ACAD,Number of academic entries included in value added measure,,,,
+FM,VA_INS_ACAD,Academic value added score,,,,
+FN,UCI_INS_ACAD,Academic value added upper confidence limit,,,,
+FO,LCI_INS_ACAD,Academic value added lower confidence limit,,,,
+FP,PROGRESS_BAND_ACAD,Academic progress band,,,,.
+FQ,ENTRIES_AGEN,Number of applied general entries included in value added measure,,,,
+FR,VA_INS_AGEN,Applied general value added score,,,,
+FS,UCI_INS_AGEN,Applied general value added upper confidence limit,,,,
+FT,LCI_INS_AGEN,Applied general value added lower confidence limit,,,,
+FU,PROGRESS_BAND_AGEN,Applied general progress band,,,,.
+FV,ENTRIES_ALEV_DIS,Number of A level entries by disadvantaged students included in value added measure,,,,
+FW,VA_INS_ALEV_DIS,A level value added score for disadvantaged students,,,,
+FX,UCI_INS_ALEV_DIS,A level  value added upper confidence limit for disadvantaged students,,,,
+FY,LCI_INS_ALEV_DIS,A level value added lower confidence limit for disadvantaged students,,,,
+FZ,ENTRIES_ACAD_DIS,Number of academic entries by disadvantaged students included in value added measure,,,,
+GA,VA_INS_ACAD_DIS,Academic value added score for disadvantaged students,,,,
+GB,UCI_INS_ACAD_DIS,Academic value added upper confidence limit for disadvantaged students,,,,
+GC,LCI_INS_ACAD_DIS,Academic value added lower confidence limit for disadvantaged students,,,,
+GD,ENTRIES_AGEN_DIS,Number of applied general entries by disadvantaged students included in value added measure,,,,
+GE,VA_INS_AGEN_DIS,Applied general value added score for disadvantaged students,,,,
+GF,UCI_INS_AGEN_DIS,Applied general value added upper confidence limit for disadvantaged students,,,,
+GG,LCI_INS_AGEN_DIS,Applied general value added lower confidence limit for disadvantaged students,,,,
+GH,ENTRIES_ALEV_NOTDIS,Number of A level entries by non-disadvantaged students included in value added measure,,,,
+GI,VA_INS_ALEV_NOTDIS,A level value added score for non-disadvantaged students,,,,
+GJ,UCI_INS_ALEV_NOTDIS,A level  value added upper confidence limit for non-disadvantaged students,,,,
+GK,LCI_INS_ALEV_NOTDIS,A level value added lower confidence limit for non-disadvantaged students,,,,
+GL,ENTRIES_ACAD_NOTDIS,Number of academic entries by non-disadvantaged students included in value added measure,,,,
+GM,VA_INS_ACAD_NOTDIS,Academic value added score for non-disadvantaged students,,,,
+GN,UCI_INS_ACAD_NOTDIS,Academic value added upper confidence limit for non-disadvantaged students,,,,
+GO,LCI_INS_ACAD_NOTDIS,Academic value added lower confidence limit for non-disadvantaged students,,,,
+GP,ENTRIES_AGEN_NOTDIS,Number of applied general entries by non-disadvantaged students included in value added measure,,,,
+GQ,VA_INS_AGEN_NOTDIS,Applied general value added score for non-disadvantaged students,,,,
+GR,UCI_INS_AGEN_NOTDIS,Applied general value added upper confidence limit for non-disadvantaged students,,,,
+GS,LCI_INS_AGEN_NOTDIS,Applied general value added lower confidence limit for non-disadvantaged students,,,,
+GT,TALLPUP_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+GU,TALLPUP_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+GV,TALLPUP_ALEV_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+GW,TALLPUP_ALEV_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+GX,TALLPPE_ALEV_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+GY,TALLPPE_ALEV_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+GZ,TALLPPEGRD_ALEV_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HA,TALLPPEGRD_ALEV_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HB,TALLPUP_ACAD_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HC,TALLPUP_ACAD_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HD,TALLPPE_ACAD_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HE,TALLPPE_ACAD_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HF,TALLPPEGRD_ACAD_1618_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HG,TALLPPEGRD_ACAD_1618_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HH,TALLPUP_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HI,TALLPUP_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HJ,TALLPPE_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HK,TALLPPE_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HL,TALLPPEGRD_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HM,TALLPPEGRD_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HN,TALLPUP_TLEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HO,TALLPUP_TLEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HP,TALLPPE_TLEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HQ,TALLPPE_TLEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HR,TALLPPEGRD_TLEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HS,TALLPPEGRD_TLEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HT,TALLPUP_TECHCERT_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+HU,TALLPUP_TECHCERT_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+HV,TALLPPE_TECHCERT_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HW,TALLPPE_TECHCERT_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+HX,TALLPPEGRD_TECHCERT_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+HY,TALLPPEGRD_TECHCERT_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+HZ,T_AIMS_TLEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IA,T_AIMS_TLEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+IB,CA_SCORE_TLEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IC,CA_SCORE_TLEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+ID,T_AIMS_TECHCERT_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IE,T_AIMS_TECHCERT_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+IF,CA_SCORE_TECHCERT_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IG,CA_SCORE_TECHCERT_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+IH,T_AIMS_CA_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+II,T_AIMS_CA_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IJ,CA_SCORE_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+IK,CA_SCORE_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IL,T_SCOPEEX_E_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IM,T_SCOPEEX_E_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IN,PROGEX_E_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IO,PROGEX_E_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IP,T_SCOPEEX_M_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IQ,T_SCOPEEX_M_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+IR,PROGEX_M_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IS,PROGEX_M_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IT,ENTRIES_ALEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IU,ENTRIES_ALEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IV,VA_INS_ALEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IW,VA_INS_ALEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IX,PROGRESS_BAND_ALEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IY,UCI_INS_ALEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+IZ,UCI_INS_ALEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JA,LCI_INS_ALEV_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JB,LCI_INS_ALEV_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JC,ENTRIES_ACAD_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JD,ENTRIES_ACAD_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JE,VA_INS_ACAD_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JF,VA_INS_ACAD_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JG,PROGRESS_BAND_ACAD_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JH,UCI_INS_ACAD_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JI,UCI_INS_ACAD_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JJ,LCI_INS_ACAD_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JK,LCI_INS_ACAD_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JL,ENTRIES_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JM,ENTRIES_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JN,VA_INS_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JO,VA_INS_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JP,PROGRESS_BAND_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JQ,UCI_INS_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JR,UCI_INS_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JS,LCI_INS_AGEN_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JT,LCI_INS_AGEN_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JU,T_INSCOPE_ALEV_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+JV,T_INSCOPE_ALEV_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+JW,PT_RETAINED_ALEV_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JX,PT_RETAINED_ALEV_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+JY,T_INSCOPE_ACAD_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+JZ,T_INSCOPE_ACAD_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KA,PT_RETAINED_ACAD_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KB,PT_RETAINED_ACAD_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KC,T_INSCOPE_AGEN_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KD,T_INSCOPE_AGEN_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KE,PT_RETAINED_AGEN_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KF,PT_RETAINED_AGEN_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KG,T_INSCOPE_TLEV_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KH,T_INSCOPE_TLEV_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KI,PT_RETAINED_TLEV_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KJ,PT_RETAINED_TLEV_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KK,T_INSCOPE_TECHCERT_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KL,T_INSCOPE_TECHCERT_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KM,PT_RETAINED_TECHCERT_RET_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KN,PT_RETAINED_TECHCERT_RET_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KO,TALLPUP_1618_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KP,TALLPUP_1618_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KQ,TALLPUP_ALEV_1618_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KR,TALLPUP_ALEV_1618_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KS,TALLPPE_ALEV_1618_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KT,TALLPPE_ALEV_1618_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KU,TALLPPEGRD_ALEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KV,TALLPPEGRD_ALEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KW,TALLPUP_ACAD_1618_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+KX,TALLPUP_ACAD_1618_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+KY,TALLPPE_ACAD_1618_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+KZ,TALLPPE_ACAD_1618_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LA,TALLPPEGRD_ACAD_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LB,TALLPPEGRD_ACAD_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LC,TALLPUP_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+LD,TALLPUP_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LE,TALLPPE_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LF,TALLPPE_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LG,TALLPPEGRD_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LH,TALLPPEGRD_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LI,TALLPUP_TLEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+LJ,TALLPUP_TLEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LK,TALLPPE_TLEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LL,TALLPPE_TLEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LM,TALLPPEGRD_TLEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LN,TALLPPEGRD_TLEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LO,TALLPUP_TECHCERT_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+LP,TALLPUP_TECHCERT_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LQ,TALLPPE_TECHCERT_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LR,TALLPPE_TECHCERT_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LS,TALLPPEGRD_TECHCERT_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LT,TALLPPEGRD_TECHCERT_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LU,T_AIMS_TLEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+LV,T_AIMS_TLEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LW,CA_SCORE_TLEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+LX,CA_SCORE_TLEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+LY,T_AIMS_TECHCERT_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+LZ,T_AIMS_TECHCERT_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MA,CA_SCORE_TECHCERT_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MB,CA_SCORE_TECHCERT_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MC,T_SCOPEEX_E_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+MD,T_SCOPEEX_E_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+ME,PROGEX_E_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MF,PROGEX_E_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MG,T_SCOPEEX_M_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+MH,T_SCOPEEX_M_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MI,PROGEX_M_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MJ,PROGEX_M_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MK,ENTRIES_ALEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+ML,ENTRIES_ALEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MM,VA_INS_ALEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MN,VA_INS_ALEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MO,UCI_INS_ALEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MP,UCI_INS_ALEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MQ,LCI_INS_ALEV_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MR,LCI_INS_ALEV_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MS,ENTRIES_ACAD_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MT,ENTRIES_ACAD_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MU,VA_INS_ACAD_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MV,VA_INS_ACAD_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MW,UCI_INS_ACAD_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MX,UCI_INS_ACAD_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+MY,LCI_INS_ACAD_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+MZ,LCI_INS_ACAD_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NA,ENTRIES_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NB,ENTRIES_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NC,VA_INS_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+ND,VA_INS_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NE,UCI_INS_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NF,UCI_INS_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NG,LCI_INS_AGEN_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NH,LCI_INS_AGEN_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NI,T_INSCOPE_ALEV_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+NJ,T_INSCOPE_ALEV_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NK,PT_RETAINED_ALEV_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NL,PT_RETAINED_ALEV_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NM,T_INSCOPE_ACAD_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+NN,T_INSCOPE_ACAD_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NO,PT_RETAINED_ACAD_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NP,PT_RETAINED_ACAD_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NQ,T_INSCOPE_AGEN_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+NR,T_INSCOPE_AGEN_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NS,PT_RETAINED_AGEN_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NT,PT_RETAINED_AGEN_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NU,T_INSCOPE_TLEV_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+NV,T_INSCOPE_TLEV_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NW,PT_RETAINED_TLEV_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+NX,PT_RETAINED_TLEV_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+NY,T_INSCOPE_TECHCERT_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+NZ,T_INSCOPE_TECHCERT_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OA,PT_RETAINED_TECHCERT_RET_DIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OB,PT_RETAINED_TECHCERT_RET_DIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OC,TALLPUP_1618_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+OD,TALLPUP_1618_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OE,TALLPUP_ALEV_1618_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+OF,TALLPUP_ALEV_1618_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OG,TALLPPE_ALEV_1618_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OH,TALLPPE_ALEV_1618_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OI,TALLPPEGRD_ALEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OJ,TALLPPEGRD_ALEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OK,TALLPUP_ACAD_1618_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+OL,TALLPUP_ACAD_1618_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OM,TALLPPE_ACAD_1618_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+ON,TALLPPE_ACAD_1618_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OO,TALLPPEGRD_ACAD_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OP,TALLPPEGRD_ACAD_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OQ,TALLPUP_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+OR,TALLPUP_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OS,TALLPPE_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OT,TALLPPE_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OU,TALLPPEGRD_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OV,TALLPPEGRD_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OW,TALLPUP_TLEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+OX,TALLPUP_TLEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+OY,TALLPPE_TLEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+OZ,TALLPPE_TLEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PA,TALLPPEGRD_TLEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PB,TALLPPEGRD_TLEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PC,TALLPUP_TECHCERT_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+PD,TALLPUP_TECHCERT_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PE,TALLPPE_TECHCERT_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PF,TALLPPE_TECHCERT_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PG,TALLPPEGRD_TECHCERT_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PH,TALLPPEGRD_TECHCERT_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PI,T_AIMS_TLEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+PJ,T_AIMS_TLEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PK,CA_SCORE_TLEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PL,CA_SCORE_TLEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PM,T_AIMS_TECHCERT_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+PN,T_AIMS_TECHCERT_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PO,CA_SCORE_TECHCERT_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PP,CA_SCORE_TECHCERT_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PQ,T_SCOPEEX_E_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+PR,T_SCOPEEX_E_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PS,PROGEX_E_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PT,PROGEX_E_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PU,T_SCOPEEX_M_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+PV,T_SCOPEEX_M_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PW,PROGEX_M_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PX,PROGEX_M_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+PY,ENTRIES_ALEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+PZ,ENTRIES_ALEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QA,VA_INS_ALEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QB,VA_INS_ALEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QC,UCI_INS_ALEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QD,UCI_INS_ALEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QE,LCI_INS_ALEV_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QF,LCI_INS_ALEV_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QG,ENTRIES_ACAD_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QH,ENTRIES_ACAD_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QI,VA_INS_ACAD_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QJ,VA_INS_ACAD_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QK,UCI_INS_ACAD_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QL,UCI_INS_ACAD_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QM,LCI_INS_ACAD_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QN,LCI_INS_ACAD_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QO,ENTRIES_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QP,ENTRIES_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QQ,VA_INS_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QR,VA_INS_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QS,UCI_INS_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QT,UCI_INS_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QU,LCI_INS_AGEN_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QV,LCI_INS_AGEN_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QW,T_INSCOPE_ALEV_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+QX,T_INSCOPE_ALEV_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+QY,PT_RETAINED_ALEV_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+QZ,PT_RETAINED_ALEV_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RA,T_INSCOPE_ACAD_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+RB,T_INSCOPE_ACAD_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RC,PT_RETAINED_ACAD_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+RD,PT_RETAINED_ACAD_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RE,T_INSCOPE_AGEN_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+RF,T_INSCOPE_AGEN_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RG,PT_RETAINED_AGEN_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+RH,PT_RETAINED_AGEN_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RI,T_INSCOPE_TLEV_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+RJ,T_INSCOPE_TLEV_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RK,PT_RETAINED_TLEV_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+RL,PT_RETAINED_TLEV_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RM,T_INSCOPE_TECHCERT_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,.,.
+RN,T_INSCOPE_TECHCERT_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.
+RO,PT_RETAINED_TECHCERT_RET_NOTDIS_18,This is a historical variable. It holds the 2018 value of the corresponding variable. Please see the current variable for the variable description.,,,,
+RP,PT_RETAINED_TECHCERT_RET_NOTDIS_17,This is a historical variable. It holds the 2017 value of the corresponding variable. Please see the current variable for the variable description.,.,.,.,.

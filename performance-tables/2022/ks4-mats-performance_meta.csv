@@ -1,0 +1,63 @@
+Column,Metafile heading,Metafile description,2019 field name,new for 2022
+1,TIME_PERIOD,,,YES
+2,TIME_IDENTIFIER,,,YES
+3,TRUST_GROUP_TYPE,Trust type,GROUP-TYPE,
+4,TRUST_NAME,Trust name,CHAINNAME,
+5,TRUST_UID,Trust Unique identifier,UID,
+6,TRUST_ID,Trust Identifier,CHAINID,
+7,TRUST_COMPANIES_HOUSE_NUMBER,Trust companies house number,,YES
+8,TRUST_UKPRN,Trust UK provider reference number,,YES
+10,TRUST_LEADREGION,Trust lead region,,YES
+11,INSTITUTIONS_MATPTINC,"URNs, included in performance measures",SCHOOL-URNS,
+12,NUMINST_MATPTINC,"Number of academies in the trust, included in performance measures",SCHOOLS,
+13,NUMINST_CONVERTER_MATPTINC,"Number of converter academies, included in performance measures",ACCCONVERTER,
+14,NUMINST_SPONSOR_MATPTINC,"Number of sponsor-led academies, included in performance measures",ACCSPONSOR,
+15,NUMINST_OTHERACADEMY_MATPTINC,"Number of free, studio, and UTC acadmies, included in performance measures",FREE_STUDIO_UTC,
+16,NUMINST_FSM6CLA1A_MATPTINC,"Number of academies with disadvantaged pupils, included in performance measures",SCHOOLSDIS,
+17,NUMINST_3_MATPTINC,"Number of academies that have been in the trust for 3 years, included in performance measures",YEARS3,
+18,NUMINST_4_MATPTINC,"Number of academies that have been in the trust for 4 years, included in performance measures",YEARS4,
+19,NUMINST_5PLUS_MATPTINC,"Number of academies that have been in the trust for 5 years or more, included in performance measures",YEARS5,
+20,TPUP_MATPTINC,"Number of pupils at the end of ks4, included in performance measures",TPUP,
+21,KS2ASS_MATPTINC,"KS4 cohort average KS2 Scaled Score (average of English reading and maths), included in performance measures",,YES
+22,PFSM6CLA1A_MATPTINC,"% of pupils at the end of ks4 who are disadvantaged, included in performance measures",PTFSM6CLA1A,
+23,PNOTFSM6CLA1A_MATPTINC,"% of pupils at the end of ks4 who are not disadvantaged, included in performance measures",PTNOTFSM6CLA1A,
+24,PEALGRP2_MATPTINC,"% of pupils at the end of ks4 with English as additional language (EAL), included in performance measures",PTEALGRP2,
+25,PSEN_ALL4_MATPTINC,"% of pupils at the end of ks4 with special educational needs (SEN) including those with or without an Education, health and care (EHC) plan, included in performance measures",PTSEN,
+26,ATT8SCR_WGTAVG,"Average Attainment 8 score per pupil at the end of KS4, weighted average",,YES
+27,P8MEACOV,% of pupils at the end of ks4 included in Progress 8 measure,,YES
+28,P8MEA_WGTAVG,"Progress 8 measure after adjustment for extreme scores, weighted average",P8SCORE_ADJ_WGTAVG,
+29,P8CILOW,Progress 8 lower 95% confidence interval for adjusted average,P8SCORE_ADJ_LOWER,
+30,P8CIUPP,Progress 8 upper 95% confidence interval for adjusted average,P8SCORE_ADJ_UPPER,
+31,PTL2BASICS_95_WGTAVG,"% of pupils at the end of KS4 achieving strong 9-5 passes in both English and mathematics GCSEs , weighted average",,YES
+32,EBACCAPS_WGTAVG,"Average EBacc APS score per pupil at the end of KS4, weighted average",EBACCAPS_WGTAVG,
+33,PTEBACC_95_WGTAVG,"% of pupils at the end of KS4 achieving the English Baccalaureate with 9-5 passes, weighted average",EBACC_95_WGTAVG,
+34,PTEBACC_94_WGTAVG,"% of pupils at the end of KS4 achieving the English Baccalaureate with 9-4 passes, weighted average",EBACC_94_WGTAVG,
+35,PTEBACC_E_PTQ_EE_WGTAVG,"% of pupils at the end of KS4 with entries in all English Baccalaureate subject areas, weighted average",EBACC_E_PTQ_EE_WGTAVG,
+36,ATT8SCR_WGTAVG_FSM6CLA1A,"Average Attainment 8 score per disadvantaged pupil at the end of KS4, weighted average",,YES
+37,P8MEACOV_FSM6CLA1A,% of disadvantaged pupils at the end of ks4 included in Progress 8 measure,,YES
+38,P8MEA_WGTAVG_FSM6CLA1A,"Progress 8 measure after adjustment for extreme scores for disadvantaged pupils, weighted average",P8SCORE_ADJ_WGTAVG_FSM6CLA1A,
+39,P8CILOW_FSM6CLA1A,Progress 8 lower 95% confidence interval for adjusted average for disadvantaged pupils,P8SCORE_ADJ_LOWER_FSM6CLA1A,
+40,P8CIUPP_FSM6CLA1A,Progress 8 upper 95% confidence interval for adjusted average for disadvantaged pupils,P8SCORE_ADJ_UPPER_FSM6CLA1A,
+41,PTL2BASICS_95_WGTAVG_FSM6CLA1A,"% of disadvantaged pupils at the end of KS4 achieving strong 9-5 passes in both English and mathematics GCSEs , weighted average",,YES
+42,EBACCAPS_WGTAVG_FSM6CLA1A,"Average EBacc APS score per disadvantaged pupil at the end of KS4, weighted average",EBACCAPS_WGTAVG_FSM6CLA1A,
+43,PTEBACC_95_WGTAVG_FSM6CLA1A,"% of disadvantaged pupils at the end of KS4 achieving the English Baccalaureate with 9-5 passes, weighted average",EBACC_95_WGTAVG_FSM6CLA1A,
+44,PTEBACC_94_WGTAVG_FSM6CLA1A,"% of disadvantaged pupils at the end of KS4 achieving the English Baccalaureate with 9-4 passes, weighted average",EBACC_94_WGTAVG_FSM6CLA1A,
+45,PTEBACC_E_PTQ_EE_WGTAVG_FSM6CLA1A,"% of disadvantaged pupils at the end of KS4 with entries in all English Baccalaureate subject areas, weighted average",EBACC_E_PTQ_EE_WGTAVG_FSM6CLA1A,
+46,ATT8SCR_WGTAVG_NFSM6CLA1A,"Average Attainment 8 score per non-disadvantaged pupil at the end of KS4, weighted average",,YES
+47,P8MEACOV_NFSM6CLA1A,% of non-disadvantaged pupils at the end of ks4 included in Progress 8 measure,,YES
+48,P8MEA_WGTAVG_NFSM6CLA1A,"Progress 8 measure after adjustment for extreme scores for non-disadvantaged pupils, weighted average",P8SCORE_ADJ_WGTAVG_NOTFSM6CLA1A,
+49,P8CILOW_NFSM6CLA1A,Progress 8 lower 95% confidence interval for adjusted average for non-disadvantaged pupils,P8SCORE_ADJ_LOWER_NOTFSM6CLA1A,
+50,P8CIUPP_NFSM6CLA1A,Progress 8 upper 95% confidence interval for adjusted average for non-disadvantaged pupils,P8SCORE_ADJ_UPPER_NOTFSM6CLA1A,
+51,PTL2BASICS_95_WGTAVG_NFSM6CLA1A,"% of non-disadvantaged pupils at the end of KS4 achieving strong 9-5 passes in both English and mathematics GCSEs , weighted average",,YES
+52,EBACCAPS_WGTAVG_NFSM6CLA1A,"Average EBacc APS score per non-disadvantaged pupil at the end of KS4, weighted average",EBACCAPS_WGTAVG_NOTFSM6CLA1A,
+53,PTEBACC_95_WGTAVG_NFSM6CLA1A,"% of non-disadvantaged pupils at the end of KS4 achieving the English Baccalaureate with 9-5 passes, weighted average",EBACC_95_WGTAVG_NOTFSM6CLA1A,
+54,PTEBACC_94_WGTAVG_NFSM6CLA1A,"% of non-disadvantaged pupils at the end of KS4 achieving the English Baccalaureate with 9-4 passes, weighted average",EBACC_94_WGTAVG_NOTFSM6CLA1A,
+55,PTEBACC_E_PTQ_EE_WGTAVG_NFSM6CLA1A,"% of non-disadvantaged pupils at the end of KS4 with entries in all English Baccalaureate subject areas, weighted average",EBACC_E_PTQ_EE_WGTAVG_NOTFSM6CLA1A,
+56,INSTITUTIONS_INMAT,"URNs, including mainstream academies not in performance measures",,YES
+57,NUMINST_INMAT,"Number of academies in the trust, including those not in performance measures",,YES
+58,NUMINST_CONVERTER_INMAT,"Number of converter academies, including those not in performance measures",,YES
+59,NUMINST_SPONSOR_INMAT,"Number of sponsor-led academies, including those not in performance measures",,YES
+60,NUMINST_OTHERACADEMY_INMAT,"Number of free, studio, and UTC acadmies, including those not in performance measures",,YES
+61,TPUP_INMAT,"Number of pupils at the end of KS4, including those not in performance measures",,YES
+62,PFSM6CLA1A_INMAT,"% of pupils at the end of KS4 who are disadvantaged, including those not in performance measures",,YES
+63,PNOTFSM6CLA1A_INMAT,"% of pupils at the end of KS4 who are not disadvantaged, including those not in performance measures",,YES

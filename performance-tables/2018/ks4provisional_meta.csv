@@ -1,0 +1,26 @@
+﻿Metafile heading,Metafile description,Methodology changes,Null field for special schools,Null field for local authority records,Null field for National (all schools) records,Null field for National (maintained schools) records
+RECTYPE,Record type (1=mainstream school; 2=special school; 4=local authority; 5=National (all schools); 7=National (maintained schools)),,,,,
+LEA,Local authority code (see separate list of local authorities and their codes),,,,Yes,Yes
+ESTAB,Establishment number,,,Yes,Yes,Yes
+URN,School Unique Reference Number,,,Yes,Yes,Yes
+SCHNAME,School name,,,Yes,Yes,Yes
+ICLOSE,Closed school flag (0=open; 1=closed),,,Yes,Yes,Yes
+NFTYPE,School type (see separate list of abbreviations used in the tables),,,Yes,Yes,Yes
+TPUP,Number of pupils at the end of key stage 4,,,,,
+ATT8SCR,Average Attainment 8 score per pupil,,,,,
+P8PUP,Number of pupils included in Progress 8 measure,,,,Yes,
+TP8ADJ,Number of pupils who have had P8 score adjusted in measure,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+P8MEA,Progress 8 measure after adjustment for extreme scores,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+P8CILOW,Progress 8 lower 95% confidence interval for adjusted average,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+P8CIUPP,Progress 8 upper 95% confidence interval for adjusted average,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+P8MEA_ORIG,Progress 8 measure based on unadjusted pupil scores,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+P8CILOW_ORIG,Progress 8 lower 95% confidence interval for unadjusted average,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+P8CIUPP_ORIG,Progress 8 upper 95% confidence interval for unadjusted average,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+PTL2BASICS_94,% of pupils achieving standard 9-4 passes in both English and mathematics GCSEs ,Yes - see 2017 methodology sheet for methodology change,,,,
+PTL2BASICS_95,% of pupils achieving strong 9-5 passes in both English and mathematics GCSEs ,Yes - see 2017 methodology sheet for methodology change,,,,
+EBACCAPS,Average EBacc APS score per pupil,,,,,
+PTEBACC_E_PTQ_EE,Percentage of key stage 4 pupils with entries in all English Baccalaureate subject areas,,,,,
+PTEBACC_94,Percentage of pupils achieving the English Baccalaureate with 9-4 passes,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+PTEBACC_95,Percentage of pupils achieving the English Baccalaureate with 9-5 passes,Yes - see 2018 methodology sheet for methodology change,,,Yes,
+PT5EM_94,% of pupils achieving Level 2 threshold including standard passes 9-4,Yes - see 2018 methodology sheet for methodology change,,,,
+P8_BANDING,Progress 8 banding shown on school performance tables website (1=Well above average; 2=Above average; 3=Average; 4=Below average; 5=Well below average),,,,,
