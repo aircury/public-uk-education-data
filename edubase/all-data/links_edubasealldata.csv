@@ -15712,6 +15712,8 @@
 130646,130647,"East Devon College","Predecessor",""
 130647,130646,"Petroc","Successor",""
 130651,130627,"Cornwall College","Successor","31-03-2015"
+130653,130655,"Kingston Maurward College","Predecessor - merged","01-08-2024"
+130655,130653,"Weymouth and Kingston Maurward College","Successor - merged","01-08-2024"
 130660,131859,"East Durham College","Successor",""
 130661,131859,"East Durham College","Successor",""
 130662,150514,"Queen Elizabeth Sixth Form College","Successor","01-03-2024"
