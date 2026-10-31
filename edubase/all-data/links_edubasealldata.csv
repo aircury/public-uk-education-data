@@ -5038,6 +5038,8 @@
 108597,150333,"Stephenson Memorial Primary School","Successor","31-03-2024"
 108598,132141,"Hadrian Park Primary School","Successor",""
 108601,138576,"Grasmere Academy","Successor","31-08-2012"
+108605,108606,"Ivy Road Primary School","Predecessor - merged","01-01-2026"
+108606,108605,"Forest Hall Primary School","Successor - merged","01-01-2026"
 108608,150334,"Denbigh Community Primary School","Successor","31-12-2023"
 108616,148448,"St Cuthbert's Catholic Primary School, North Shields","Successor","31-07-2021"
 108617,148449,"St Joseph's Catholic Primary School, North Shields","Successor","31-07-2021"
